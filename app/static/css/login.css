@@ -1,0 +1,56 @@
+#wrapper{
+    background: #F8D8ED;
+}
+.wrapper{
+    background: url("../img/login/background.jpg") center;
+    height: 710px;
+}
+
+
+.login{
+    width: 420px;
+    height: 486px;
+    background: #FFFFFF;
+    float: right;
+    margin-top: 130px;
+}
+.login h2{
+    font-size: 22px;
+    text-align: center;
+    color: #4D4D67;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.login form{
+    width: 360px;
+    height: 290px;
+    margin: 0 auto;
+}
+.login form .big_inp{
+    width: 100%;
+    height: 50px;
+}
+.login form input:nth-child(2){
+    margin-top: 15px;
+}
+.login form .user{
+    border: solid 1px #E1E1E1;
+    box-sizing: border-box;
+}
+.login form .checkbox{
+    width: 14px;
+    height: 14px;
+}
+.login_btn{
+    background: #2899F7;
+    margin-bottom: 15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.register_btn{
+    background: #FFFFFF;
+    color: #666666;
+    font-size: 18px;
+    border: none;
+}
