@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>登陆</title>
-    <link type="text/css" rel="stylesheet" href="css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="css/home.css" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link type="text/css" rel="stylesheet" href="static/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/login.css">
 </head>
 <body>
 <!---------------------------头部--------------------------->
@@ -167,13 +167,24 @@
             <div class="login">
                 <h2>账号登录</h2>
                 <form>
-                    <input class="big_inp user" type="text" name="userid">
-                    <input class="big_inp user" type="password" name="password">
-                    <input class="big_inp checkbox" type="checkbox">两周内自动登录
-                    <a>忘记密码？</a>
+                    <input class="big_inp user" type="text" id="userid" name="userid" placeholder="手机号/邮箱/用户名">
+                    <input class="big_inp user" type="password" id="password" name="password" placeholder="密码">
+                    <div class="auto_but">
+                        <input class="big_inp checkbox" type="checkbox"><span class="auto_lo">两周内自动登录</span>
+
+                    </div>
+                    <a class="forget">忘记密码？</a>
                     <button class="big_inp login_btn">登录</button>
-                    <button class="big_inp register_btn">注册VIVO账号</button>
+                    <button class="big_inp register_btn"><a class="reg">注册VIVO账号</a></button>
                 </form>
+                <span class="order_login">其他登录方式</span>
+                <ul class="login_icon">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </div>
     </section>

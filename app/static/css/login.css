@@ -30,8 +30,16 @@
     width: 100%;
     height: 50px;
 }
+.login form input:nth-child(1){
+    padding-left: 16px;
+}
 .login form input:nth-child(2){
     margin-top: 15px;
+    padding-left: 16px;
+}
+.login form .user::-webkit-input-placeholder{
+    font-size: 16px;
+    color: #E4E4E4;
 }
 .login form .user{
     border: solid 1px #E1E1E1;
@@ -40,6 +48,32 @@
 .login form .checkbox{
     width: 14px;
     height: 14px;
+    display: block;
+    float: left;
+}
+.login form .auto_lo{
+    color: #666666;
+    font-size: 12px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.login form .auto_but{
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.login form .forget{
+    display: block;
+    float: right;
+    color: #666666;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.login form .forget:hover{
+    color: #2899F7;
 }
 .login_btn{
     background: #2899F7;
@@ -53,4 +87,59 @@
     color: #666666;
     font-size: 18px;
     border: none;
+    border: solid 1px #E1E1E1;
+    box-sizing: border-box;
+}
+.register_btn .reg{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-size: 18px;
+    cursor: pointer;
+}
+.order_login{
+    width: 74px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #999999;
+}
+.login_icon{
+    width: 174px;
+    height: 26px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.login_icon li{
+    width: 26px;
+    height: 26px;
+    float: left;
+    cursor: pointer;
+}
+.login_icon li:nth-child(1){
+    background: url("../img/login/qq.png") center;
+    background-size: contain;
+}
+.login_icon li:nth-child(2){
+    background: url("../img/login/weixin.png") center;
+    background-size: contain;
+}
+.login_icon li:nth-child(3){
+    background: url("../img/login/sina.png") center;
+    background-size: contain;
+}
+.login_icon li:nth-child(4){
+    background: url("../img/login/zhifubao.png") center;
+    background-size: contain;
+}
+.login_icon li:nth-child(5){
+    background: url("../img/login/renren.png") center;
+    background-size: contain;
 }

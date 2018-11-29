@@ -2,95 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5690ff-e79c-4422-af87-c48afa2a3ce0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vivo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/VIVO-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/aifeifan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/cdgj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/favicon_7c51b3b.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/gssw-icon-x2_db0a7f6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/index-nav-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/online-service-pc_8319a93.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-figure1-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-figure1-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-figure1-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-figure2-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-figure2-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-figure2-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title1-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title1-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title1-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title2-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title2-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title3-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title3-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-nexxjb-title3-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title1-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title1-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title1-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title2-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title2-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title2-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title3-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title3-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title3-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title1-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title1-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title1-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title2-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title2-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title2-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title3-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title3-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23yy-title3-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title1-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title1-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title1-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title2-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title2-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title3-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title3-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-banner-z3ys-title3-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-follow-ali-x2_4fb4a1f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-follow-ali_6f99f2c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-follow-wechat-x2_a996450.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-follow-wechat_b1e2888.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-promos-x21i.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-promos-x23hcsdty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-promos-x23hcsy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/index/vivo-promos-y97.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/online-service-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/online-service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/qq_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/renren.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/renren_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/sina_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/tel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/uncheck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/weixin_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/zhifubao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/login/zhifubao_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/x23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/js/jquery.easing.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/VIVO-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/VIVO-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/login.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,8 +15,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4602">
+              <caret line="177" column="48" selection-start-line="177" selection-start-column="48" selection-end-line="177" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/css/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/VIVO-index.html" />
+        <option value="$PROJECT_DIR$/app/login.html" />
+        <option value="$PROJECT_DIR$/app/static/css/login.css" />
+        <option value="$PROJECT_DIR$/app/register.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -111,9 +75,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="865" />
-    <option name="width" value="1062" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="649" />
+    <option name="width" value="1278" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -121,9 +85,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,19 +100,6 @@
               <item name="vivo" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivo" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivo" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -156,6 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -228,43 +180,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543481364971</updated>
-      <workItem from="1543481366412" duration="753000" />
+      <workItem from="1543481366412" duration="7680000" />
+      <workItem from="1543494077955" duration="114000" />
+      <workItem from="1543495455114" duration="661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753000" />
+    <option name="totallyTimeSpent" value="8455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="865" y="0" width="1062" height="1057" extended-state="0" />
+    <frame x="649" y="0" width="1278" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249501" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13957307" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,5 +227,56 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4602">
+          <caret line="177" column="48" selection-start-line="177" selection-start-column="48" selection-end-line="177" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4602">
+          <caret line="177" column="48" selection-start-line="177" selection-start-column="48" selection-end-line="177" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
