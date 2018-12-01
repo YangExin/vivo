@@ -180,3 +180,232 @@ body,html{
     background-color:#008cd7;
     transition: .8s;
 }
+
+
+/*-------------------------------------------头部-------------------------------------------*/
+
+#foot{
+    overflow:hidden;
+    min-width:1200px;
+}
+.cl {
+    zoom: 1;
+}
+.shop-agree {
+    height: 86px;
+    position: relative;
+    text-align: center;
+    border-bottom: #e8e8e9 solid 1px;
+    border-top: #e8e8e9 solid 1px;
+    background: #fafafa;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.shop-agree ul {
+    height: 86px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.shop-agree li {
+    float: left;
+    width: 25%;
+    text-align: left;
+    padding-top: 14px;
+}
+.shop-agree li b {
+    float: left;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    vertical-align: middle;
+    background:url(../img/footer/footer-icon_02a1be2.png) no-repeat 0 0;
+}
+
+.shop-agree li p {
+    color: #3d3d3d;
+    float: left;
+    padding-left: 10px;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+}
+.shop-agree li p span {
+    color: #3d3d3d;
+    font-size: 30px;
+    vertical-align: middle;
+    padding-right: 10px;
+    position: relative;
+    top: -2px;
+}
+.shop-agree li b.b1 {
+    background-position: 0 0;
+}
+.shop-agree li b.b2 {
+    background-position: -62px 0;
+}
+.shop-agree li b.b3 {
+    margin-left: 30px;
+    background-position: -124px 0;
+}
+.shop-agree li b.b4 {
+    background-position: -185px 0;
+}
+
+
+
+
+
+.shop-help {
+    height: auto;
+    position: relative;
+    padding: 25px 0;
+    background: #fafafa;
+    overflow:hidden;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.shop-help dl {
+    float: left;
+    display: block;
+    width: 20%;
+}
+.shop-help dt {
+    color: #008cd6;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.shop-help dd {
+    line-height: 30px;
+    color: #999;
+    display:block
+}
+.shop-help dd a {
+    color: #999;
+}
+
+.shop-help dd a:hover{
+    color:#008cd6;
+}
+
+.shop-help dt b {
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    background:url(../img/footer/footer-icon_02a1be2.png) no-repeat;
+    margin-right: 5px;
+}
+.shop-help dt b.b1 {
+    background-position: 0 -61px;
+}
+.shop-help dt b.b2 {
+    background-position: -30px -61px;
+}
+.shop-help dt b.b3 {
+    background-position: -64px -61px;
+}
+.shop-help dt b.b4 {
+    background-position: -93px -61px;
+}
+.shop-help dt b.b5 {
+    background-position: -123px -61px;
+}
+
+
+
+
+
+.footer-copyright{
+    background: #202223;
+    padding: 30px 0;
+    overflow:hidden;
+}
+.sns-box {
+    color: #ccc;
+    position: relative;
+    float: right;
+}
+.copy-info {
+    color: #666;
+    padding-top: 5px;
+    width: 600px;
+    float: left;
+}
+a.footer-logo {
+    width: 95px;
+    height: 30px;
+    float: left;
+    position: relative;
+    background:url(../img/footer/vivo-footer-logo_018fcf3.jpg) no-repeat;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.gdgs-link {
+    width: 24px;
+    height: 25px;
+    background-image:url(../img/footer/gssw-icon-identification_db0a7f6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 4px 15px;
+}
+
+.sns-box a {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 8px;
+    background: #4d4e4f;
+}
+.sns-box a>b {
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    display: inline-block;
+    background-size: 135px 54px;
+}
+.sns-box a.sina b {
+    background:url(../img/footer/vivo-sns-ico_b902584.png) no-repeat 0 0;
+    transition: all .3s ease;
+}
+.sns-box a.tencent b {
+    background:url(../img/footer/vivo-sns-ico_b902584.png) no-repeat -27px 0;
+    transition: all .3s ease;
+}
+.sns-box a.renren b {
+    background:url(../img/footer/vivo-sns-ico_b902584.png) no-repeat -108px 0;
+    transition: all .3s ease;
+}
+.sns-box a.weixin b {
+    background:url(../img/footer/vivo-sns-ico_b902584.png) no-repeat -54px 0;
+    transition: all .3s ease;
+}
+.sns-box .sina:hover{
+    background-position: -10px -10px;
+    background-color:#e52c42;
+    transition: .5s;
+}
+.sns-box .tencent:hover{
+    background-position: -10px -10px;
+    background-color:#008cd7;
+    transition: .5s;
+}
+.sns-box .renren:hover{
+    background-color:#056be8;
+    transition: .5s;
+}
+.sns-box .weixin:hover{
+    background-color:#20a900;
+    transition: .5s;
+}

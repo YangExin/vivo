@@ -1,0 +1,67 @@
+#wrapper{
+    background: #FFFFFF;
+}
+.wrapper{
+    overflow: hidden;
+    background: url("../img/login/register_background.jpg") center no-repeat;
+    background-size:  contain;
+}
+.register{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    opacity: .8;
+}
+.register .re_title{
+    width: 124px;
+    height: 85px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.register .re_title h3{
+    font-size: 18px;
+    color: #4C4C4C;
+    text-align: center;
+}
+.re_title .logo{
+    background: url("../img/login/regist_logo.jpg") no-repeat center;
+    width: 100%;
+    height: 35px;
+}
+.register .form-box{
+    overflow: hidden;
+    width: 700px;
+    margin: 0 auto;
+}
+.register .form-box p {
+    padding: 6px 10px;
+}
+.reg_btn_div{
+    width: 294px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-top: 38px;
+    box-sizing: border-box;
+}
+.register .form-box .res_btn{
+    width: 294px;
+    height: 44px;
+    margin: 0 auto;
+    border: solid 1px #2899F7;
+    background: #FFFFFF;
+    color: #2899F7;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.register .form-box  .res_btn:hover{
+    background: #2899F7;
+    color: #FFFFFF;
+    transition: .8s;
+    border: solid 1px #FFFFFF;
+}
+/*.register .form-box div:nth-child(1){*/
+    /*margin-top: 206px;*/
+/*}*/
