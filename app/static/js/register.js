@@ -3,12 +3,12 @@ var checkInput = {
         var reg = /^\w{6,14}$/;
         return reg.test(str);
     },
-    password(str) {
-        var reg = /^\w{6,11}$/;
-        return reg.test(str);
-    },
     phone(str) {
         var reg = /^1[35789]\d{9}$/;
+        return reg.test(str);
+    },
+    password(str) {
+        var reg = /^\w{6,11}$/;
         return reg.test(str);
     },
 }
@@ -33,7 +33,21 @@ var register = (function(){
                         var bool = checkInput[this.name](this.value);
                         if(bool) {
                             // 验证成功
-                            sendAjax('php/a.php',{
+                            sendAjax('../server/php/register_check.php',{
+                                data: {
+                                    username: this.value
+                                },
+                                success(res) {
+                                    res = JSON.parse(res);
+                                    if(res.code == 0) {
+                                        // 用户名不存在
+                                        $p.innerHTML = '用户名称可以使用';
+                                    } else {
+                                        // 用户名已经存在
+                                        $p.innerHTML = '用户名称已存在';
+                                    }
+                                    // console.log(res);
+                                }
                             });
                             $p.className = 'text-success bg-success';
                             $p.innerHTML = '验证成功';
