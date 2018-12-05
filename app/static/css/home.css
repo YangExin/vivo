@@ -1,0 +1,115 @@
+#banner{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner_content{
+    position: relative;
+    height: 818px;
+}
+.banner .ul_img{
+    width: 100%;
+    height: 818px;
+    position: relative;
+}
+.banner .ul_img li{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.banner .ul_img li:nth-child(1){
+    background: url("../img/index/banner01.jpg") center no-repeat;
+    background-size: cover;
+}
+.banner .ul_img li:nth-child(2){
+    background: url("../img/index/banner02.jpg") center no-repeat;
+    background-size: cover;
+}
+.banner .ul_img li:nth-child(3){
+    background: url("../img/index/banner03.jpg") center no-repeat;
+    background-size: cover;
+}
+.banner .ul_img li:nth-child(4){
+    background: url("../img/index/banner04.jpg") center no-repeat;
+    background-size: cover;
+}
+.new_title{
+    width: 400px;
+    height: 460px;
+    position: absolute;
+    top:250px;
+    left: 68px;
+}
+.phone_img{
+    width: 500px;
+    height: 670px;
+    position: absolute;
+    right: 74px;
+    top: 100px;
+}
+.banner .ul_img .nex_img .ver_nex{
+    width: 400px;
+    height: 60px;
+    background: url("../img/index/nex_03.png") center no-repeat;
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+}
+.banner .ul_img .nex_img .ai_nex{
+    width: 400px;
+    height: 60px;
+    background: url("../img/index/ai_01.png") center no-repeat;
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+}
+.banner .ul_img .nex_img .cpu_nex{
+    width: 400px;
+    height: 60px;
+    background: url("../img/index/cpu_03.png") center no-repeat;
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+}
+.phone_left{
+    position: absolute;
+    width: 450px;
+    height: 670px;
+    background: url("../img/index/big_left.png") center no-repeat;
+    background-size: contain;
+    top:-80px;
+    opacity: 0;
+}
+.phone_right{
+    position: absolute;
+    width: 450px;
+    height: 670px;
+    background: url("../img/index/big-right.png") center no-repeat;
+    background-size: contain;
+    bottom: -80px;
+    opacity: 0;
+}
+/*--------banner列表小按钮--------*/
+.banner .btn_list{
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 6px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -100px;
+}
+.banner .btn_list li{
+    width: 20%;
+    height: 6px;
+    background: #cccccc;
+}
+.banner .btn_list .choose{
+    background: #2899F7;
+}
+
+

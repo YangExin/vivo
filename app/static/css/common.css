@@ -37,6 +37,7 @@ body,html{
     width: 10%;
     height: 100%;
     position: relative;
+    cursor: pointer;
 }
 .header .nav-left .first_li .first_a{
     display: flex;
@@ -160,7 +161,7 @@ body,html{
     top: 48px;
     opacity: 1;
     transition: .5s ease;
-    z-index: 2;
+    z-index: 10;
     background: rgba(26,26,26,.9);
 }
 .second_nav li{
