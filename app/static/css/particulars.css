@@ -1,0 +1,73 @@
+#main{
+    height: 1930px;
+    width: 100%;
+}
+.main{
+    height: 1930px;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main .main_nave{
+    height: 70px;
+    margin-left: 115px;
+    line-height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main .main_nave a{
+    color: #333;
+}
+.main .main_nave i{
+    display: block;
+    width: 10px;
+    height: 30px;
+    margin: 0 13px;
+    background: url('../img/particulars/icon4.png') no-repeat -8px -57px;
+}
+.main .main_nave span{
+    font-size: 12px;
+    color: #999999;
+}
+.main .show_box{
+    height: 1860px;
+    width: 692px;
+    float: left;
+}
+.main .show_box .bigImages{
+    width: 750px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main .show_box .bigImages ul{
+    position: relative;
+    height: 440px;
+    width: 350px;
+}
+.main .show_box .bigImages ul li{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .show_box .bigImages ul li img{
+    width: 350px;
+    height: 410px;
+}
+.main .show_box .smallImages{
+    width: 380px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .show_box .smallImages li a img{
+    width: 81px;
+    height: 81px;
+}
