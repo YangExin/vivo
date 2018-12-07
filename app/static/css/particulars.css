@@ -160,6 +160,9 @@
     margin-top: 30px;
     display: flex;
 }
+.main .contain .introduction .support .flower:hover{
+    cursor: pointer;
+}
 .main .contain .introduction .support .flower:hover .insta{
     display: block;
 }
@@ -191,8 +194,12 @@
     margin-left: 0;
     margin-bottom: 20px;
 }
+.main .contain .introduction .support .use:hover{
+    cursor: pointer;
+}
 .main .contain .introduction .support .use:hover .oldNew{
     display: block;
+    cursor: pointer;
 }
 .main .contain .introduction .support .oldNew{
     width: 438px;
@@ -217,4 +224,54 @@
     margin-left: 30px;
     color: #35a4e4;
     font-size: 14px;
+}
+.main .contain .introduction h2{
+    margin-top: 45px;
+}
+.main .contain .introduction .version{
+    /* margin-top: 70px; */
+    color: #333333;
+    font-size: 16px;
+}
+.main .contain .introduction .version a{
+    display: block;
+    width: 243px;
+    height: 58px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    line-height: 58px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    font-size: 14px;
+}
+/* 颜色模块 */
+.main .contain .introduction .color{
+    /* margin-top: 45px; */
+    color: #333333;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+}
+.main .contain .introduction .color a{
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 243px;
+    height: 58px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 58px;
+    margin-top: 20px;
+    color: #777;
+}
+.main .contain .introduction .color a i{
+    margin-right: 13px;
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    background: #f9f2fe;
 }
