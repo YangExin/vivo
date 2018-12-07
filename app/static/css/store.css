@@ -1,0 +1,413 @@
+#wrap{
+	background: #f7f7f5;
+	width: 100%;
+}
+.store_content{
+	width: 1200px;
+	height: 2602px;
+	margin: 0 auto;
+	background: #2899F7;
+	padding-top: 10px;
+}
+.content_top{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+.content_top li{
+	width: 294px;
+	height:140px;
+}
+.content_top li img{
+	width: 100%;
+	height: 140px;
+	display: block;
+}
+
+
+				/*热卖专区*/
+.content_selling{
+	width: 1200px;
+}
+.content_selling h2{
+	display: inline-block;
+	color: #333333;
+	font-size: 24px;
+	margin: 55px 504px 24px 552px;
+	
+}
+.content_selling>a{
+	color: #333333;
+	font-size: 14px;	
+}
+.content_selling ul{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+.content_selling ul li{
+	width: 394px;
+	height: 511px;
+	background: #fff;
+	position: relative;
+}
+.content_selling ul li .phone a{
+	display: block;
+	width: 148px;
+	height: 184px;
+	background:url(../img/store/103.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	left:50% ;
+	margin-left: -74px;
+	margin-top: 80px;
+}
+.content_selling ul li .phone_hidden a{
+	display: block;
+	width: 148px;
+	height: 184px;
+	background:url(../img/store/93.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	left:50% ;
+	margin-left: -74px;
+	margin-top: 80px;
+	display: none;
+}
+
+	/*手机详情*/
+.X23 .annotation{
+	position: absolute;
+	top:320px;
+	width: 394px;
+	text-align: center;
+	
+}
+.X23 .annotation h3{
+	font-size: 18px;
+	color: #000000;
+}
+.X23 .annotation p{
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.NEX .annotation{
+	position: absolute;
+	top:320px;
+	width: 394px;
+	text-align: center;
+	
+}
+.NEX .annotation h3{
+	font-size: 18px;
+	color: #000000;
+}
+.NEX .annotation p{
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.Z3 .annotation{
+	position: absolute;
+	top:320px;
+	width: 394px;
+	text-align: center;
+	
+}
+.Z3 .annotation h3{
+	font-size: 18px;
+	color: #000000;
+}
+.Z3 .annotation p{
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #000000;
+}
+
+	/*鼠标滑过显示*/
+.X23 .marquee{
+	position: absolute;
+	top:320px;
+	width: 394px;
+	text-align: center;
+	display: none;
+}
+.X23 .marquee h3{
+	font-size: 18px;
+	color: #000000;
+}
+.X23 .marquee p{
+	height: 46px;
+	line-height: 46px;
+}
+
+.NEX .marquee{
+	position: absolute;
+	top:320px;
+	width: 394px;
+	text-align: center;
+	display: none;
+}
+.NEX .marquee h3{
+	font-size: 18px;
+	color: #000000;
+}
+.NEX .marquee p{
+	height: 46px;
+	line-height: 46px;
+}
+
+.Z3 .marquee{
+	position: absolute;
+	top:320px;
+	width: 394px;
+	text-align: center;
+	display: none;
+}
+.Z3 .marquee h3{
+	font-size: 18px;
+	color: #000000;
+}
+.Z3 .marquee p{
+	height: 46px;
+	line-height: 46px;
+}
+
+
+.X23 .a1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #F7F7F5;
+	margin-right: 12px;
+	border-radius: 50%;
+}
+.X23 .a2{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #000;
+	border-radius: 50%;
+}
+
+.NEX .a1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #000;
+	margin-right: 12px;
+	border-radius: 50%;
+}
+.NEX .a2{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 50%;
+}
+
+.Z3 .a1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #056BE8;
+	
+	border-radius: 50%;
+}
+.Z3 .a2{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: palevioletred;
+	margin:0 12px;
+	border-radius: 50%;
+}
+.Z3 .a3{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #000;
+	border-radius: 50%;
+}
+.price{
+	width: 394px;
+	position: absolute;
+	top:430px;
+	color: red;
+	text-align: center;
+}
+
+.X23:hover {
+	box-shadow: 15px 15px 30px #6C6C6C;
+	margin-top:-3px;
+	transition: .4s;
+}
+.X23:hover .marquee {
+	display: block;
+
+}
+.X23:hover .annotation {
+	display: none;
+
+}
+
+.NEX:hover {
+	box-shadow: 15px 15px 30px #6C6C6C;
+	margin-top:-3px;
+	transition: .4s;
+}
+.NEX:hover .marquee {
+	display: block;
+
+}
+.NEX:hover .annotation {
+	display: none;
+
+}
+
+.Z3:hover {
+	box-shadow: 15px 15px 30px #6C6C6C;
+	margin-top:-3px;
+	transition: .4s;
+}
+.Z3:hover .marquee {
+	display: block;
+
+}
+.Z3:hover .annotation {
+	display: none;
+
+}
+
+
+					/*精品手机*/
+.content_phone{
+	width: 1200px;
+}
+.content_phone h2{
+	display: inline-block;
+	color: #333333;
+	font-size: 24px;
+	margin: 55px 504px 24px 552px;
+	
+}
+.content_phone>a{
+	color: #333333;
+	font-size: 14px;	
+}	
+.content_phone ul{
+	width:1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}	
+.content_phone ul li:nth-child(1){
+	width: 595px;
+	height: 380px;
+	margin-bottom: 10px;
+}			
+.content_phone ul li:nth-child(1) a{
+	display: block;
+	width: 595px;
+	height: 380px;
+	background: url(../img/store/121.jpg);
+}
+.content_phone ul li:nth-child(2){
+	width: 294px;
+	height: 380px;
+	background: #fff;
+	margin-bottom: 10px;
+	position: relative;
+	
+}
+
+.content_phone ul li:nth-child(2) .phone{
+	width: 114px;
+	height: 138px;
+	background: url(../img/store/101.png) no-repeat center;
+	background-size:cover;
+	position: absolute;
+	top: 60px;
+	left: 88px;
+}
+.content_phone ul li:nth-child(2) .annotation{
+	position: absolute;
+	top:238px;
+	text-align: center;
+	width: 294px;
+}
+
+.content_phone ul li:nth-child(2) h3{
+	width: 294px;
+	color:#000;
+	font-size: 16px;
+}
+.content_phone ul li:nth-child(2) p{
+	width: 294px;
+	color:#6C6C6C;
+	font-size: 12px;
+	height: 34px;
+	line-height: 34px;
+}
+.content_phone ul li:nth-child(2) .marquee{
+	position: absolute;
+	display: none;
+	top:238px;
+	text-align: center;
+	width: 294px;
+	
+}
+.content_phone ul li:nth-child(2) .marquee h3{
+	color: #000000;
+	font-size: 16px;
+}
+.content_phone ul li:nth-child(2) .marquee p a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #000;
+	margin:5px 0 0 142px;
+}
+.content_phone ul li:nth-child(2)>p{
+	position: absolute;
+	top: 322px;
+}
+
+
+
+
+
+.content_phone ul li:nth-child(3){
+	width: 294px;
+	height: 380px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.content_phone ul li:nth-child(4){
+	width: 294px;
+	height: 380px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.content_phone ul li:nth-child(5){
+	width: 294px;
+	height: 380px;
+	background: #fff;
+}
+.content_phone ul li:nth-child(6){
+	width: 294px;
+	height: 380px;
+	background: #fff;
+}
+.content_phone ul li:nth-child(7){
+	width: 294px;
+	height: 380px;
+	background: #fff;
+}
