@@ -35,7 +35,7 @@
 }
 .main .show_box{
     height: 1860px;
-    width: 750px;
+    width: 630px;
     float: left;
     display: flex;
     justify-content:start;
@@ -43,7 +43,7 @@
     flex-direction: column;
 }
 .main .show_box .bigImages{
-    width: 750px;
+    width: 630px;
     height: 440px;
     display: flex;
     justify-content: center;
@@ -81,11 +81,11 @@
 }
 .main .contain{
     height: 1860px;
-    width: 450px;
+    width: 570px;
     float: left;
 }
 .main .contain .title{
-    width: 450px;
+    width: 570px;
     height: 170px;
     border-bottom: 1px solid #e4e4e4;
 }
@@ -102,7 +102,7 @@
     color: #ff4b3d;
 }
 .main .contain .price{
-    width: 450px;
+    width: 570px;
     height: 185px;
     border-bottom: 1px solid #e4e4e4;
     display: flex;
@@ -151,4 +151,70 @@
 .main .contain .price .price_right .gifts .watch img{
     width: 24px;
     height: 34px;
+}
+.main .contain .introduction{
+    width: 570px;
+    height: 1220px;
+}
+.main .contain .introduction .support{
+    margin-top: 30px;
+    display: flex;
+}
+.main .contain .introduction .support .flower:hover .insta{
+    display: block;
+}
+.main .contain .introduction .support i{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    width: 85px;
+    padding-left: 18px;
+    margin-left: 20px;
+    font-size: 16px;
+    background: url('../img/particulars/dui_03.jpg') no-repeat 0 center;
+    position: relative;
+}
+.main .contain .introduction .support .insta{
+    width: 438px;
+    height: 128px;
+    position: absolute;
+    top: 20px;
+    left: -60px;
+    padding: 25px 0 0 35px;
+    background: #fff;
+    box-shadow: 0px 0px 50px #e7e7e7;
+    margin-top: 20px;
+    display: none;
+    color: #333333;
+}
+.main .contain .introduction .support .insta i{
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.main .contain .introduction .support .use:hover .oldNew{
+    display: block;
+}
+.main .contain .introduction .support .oldNew{
+    width: 438px;
+    height: 154px;
+    position: absolute;
+    top: 20px;
+    left: -185px;
+    background: #fff;
+    padding: 25px 0 0 35px;
+    box-shadow: 0px 0px 50px #e7e7e7;
+    margin-top: 20px;
+    display: none;
+    color: #333333;
+    line-height: 26px;
+}
+.main .contain .introduction .support .oldNew i{
+    width: 150px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.main .contain .introduction .support .oldNew a{
+    margin-left: 30px;
+    color: #35a4e4;
+    font-size: 14px;
 }
