@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5690ff-e79c-4422-af87-c48afa2a3ce0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/VIVO-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/VIVO-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/banner04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/index/banner04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title1-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title1-mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title1-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title2-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title2-mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title2-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title3-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title3-mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-banner-x23hcb-title3-small.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/home.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VIVO-index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VIVO-index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="204" column="46" lean-forward="true" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
+            <state relative-caret-position="221">
+              <caret line="204" column="46" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,17 +34,17 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="191" column="17" lean-forward="true" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
+            <state relative-caret-position="-1612">
+              <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="481">
+              <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -243,12 +231,12 @@
       <workItem from="1544101633274" duration="217000" />
       <workItem from="1544144515250" duration="635000" />
       <workItem from="1544157752428" duration="103000" />
-      <workItem from="1544164413631" duration="11781000" />
+      <workItem from="1544164413631" duration="14969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98078000" />
+    <option name="totallyTimeSpent" value="101266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
@@ -608,10 +596,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1612">
+          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="204" column="46" lean-forward="true" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
+        <state relative-caret-position="221">
+          <caret line="204" column="46" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -621,20 +623,6 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="191" column="17" lean-forward="true" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>

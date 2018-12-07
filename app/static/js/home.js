@@ -74,7 +74,7 @@ var dbnex_reset = function(){
 
 
 $(function () {
-    var which = 0;
+    var which = -1;
     $('.btn_list li').click(function () {
         which = $(this).index();
         showImage(which);
@@ -116,7 +116,9 @@ $(function () {
         }
         showImage(which);
     }
+    $('#banner').mouseleave(autoPlay());
     var start = setInterval(function () {
         autoPlay();
     },4000)
+
 }())
