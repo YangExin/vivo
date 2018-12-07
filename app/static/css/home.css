@@ -94,14 +94,14 @@
     bottom: -80px;
     opacity: 0;
 }
-
 /*--------------------Z3--------------------*/
 .z3_property{
     position: absolute;
-    width: 232px;
-    height: 150px;
+    width: 280px;
+    height: 200px;
     top: 200px;
     right: 360px;
+    overflow: hidden;
 }
 .z3{
     width: 278px;
@@ -129,6 +129,81 @@
     background-size: cover;
     position: absolute;
     top: 90px;
+    opacity: 0;
+}
+/*--------------------x23--------------------*/
+.x23_property{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    top: 246px;
+    right: 114px;
+}
+.x23_adver{
+    width: 278px;
+    height: 44px;
+    background: url("../img/index/adver_big.png") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    opacity: 1;
+}
+.x23{
+    width: 316px;
+    height: 46px;
+    background: url("../img/index/x23_big.png") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    left: -13px;
+    opacity: 1;
+}
+.x23_special{
+    width: 282px;
+    height: 32px;
+    background: url("../img/index/special_big.png") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 90px;
+    opacity: 1;
+}
+/*--------------------dobule_nex--------------------*/
+.dobule_nex{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    top: 266px;
+    left: 200px;
+}
+.nex_BIG_LOGO{
+    width: 336px;
+    height: 65px;
+    background: url("../img/index/NEX_BIG_LOGO.jpg") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+    left: -28px;
+}
+.dobule_screen{
+    width: 316px;
+    height: 51px;
+    background: url("../img/index/dobule_screen.jpg") center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 40px;
+    left: -13px;
+    opacity: 0;
+}
+.db_specila{
+    width: 284px;
+    height: 39px;
+    background: url("../img/index/db_specila.jpg") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 75px;
     opacity: 0;
 }
 
