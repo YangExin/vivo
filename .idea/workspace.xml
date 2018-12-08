@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5690ff-e79c-4422-af87-c48afa2a3ce0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/particulars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/css/particulars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/particulars/dui_03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone1S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone1B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone2S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone2B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone3S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone3B.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone4S.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone4B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/js/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/VIVO-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/VIVO-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/home.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,36 +22,25 @@
       <file leaf-file-name="VIVO-index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="242" column="34" selection-start-line="242" selection-start-column="34" selection-end-line="242" selection-end-column="34" />
+            <state relative-caret-position="9516">
+              <caret line="449" column="43" selection-start-line="449" selection-start-column="43" selection-end-line="449" selection-end-column="43" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="248" column="17" selection-start-line="248" selection-start-column="17" selection-end-line="248" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="104">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -63,17 +48,17 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="949">
-              <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+            <state relative-caret-position="78">
+              <caret line="84" column="26" lean-forward="true" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/js/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="130">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -99,7 +84,6 @@
         <option value="E:/HTML/Second_stage review/common.js" />
         <option value="$PROJECT_DIR$/app/static/css/login.css" />
         <option value="$PROJECT_DIR$/app/login.html" />
-        <option value="$PROJECT_DIR$/app/static/css/register.css" />
         <option value="$PROJECT_DIR$/server/php/register_check.php" />
         <option value="$PROJECT_DIR$/app/static/js/register.js" />
         <option value="$PROJECT_DIR$/app/register.html" />
@@ -107,12 +91,15 @@
         <option value="E:/HTML/Second_stage review/day17/down/17day-down/图片切换/图片切换.html" />
         <option value="E:/Project/lunbo/lbcss.css" />
         <option value="E:/Project/lunbo/lbjq.js" />
-        <option value="$PROJECT_DIR$/app/static/css/common.css" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/static/css/register.css" />
+        <option value="E:/HTML/First_stage review/day16/新建文件夹/公转自转/3d公转自转.html" />
+        <option value="$PROJECT_DIR$/app/static/css/home.css" />
         <option value="$PROJECT_DIR$/app/static/js/home.js" />
         <option value="$PROJECT_DIR$/app/VIVO-index.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/static/css/home.css" />
+        <option value="$PROJECT_DIR$/app/static/js/header.js" />
+        <option value="$PROJECT_DIR$/app/static/css/common.css" />
       </list>
     </option>
   </component>
@@ -131,8 +118,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1022" />
-    <option name="width" value="905" />
+    <option name="x" value="633" />
+    <option name="width" value="1294" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -141,7 +128,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,11 +135,37 @@
               <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,15 +268,16 @@
       <workItem from="1544157752428" duration="103000" />
       <workItem from="1544164413631" duration="15307000" />
       <workItem from="1544186437125" duration="1747000" />
-      <workItem from="1544231045128" duration="8321000" />
+      <workItem from="1544231045128" duration="11535000" />
+      <workItem from="1544248722071" duration="9578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111672000" />
+    <option name="totallyTimeSpent" value="124464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1022" y="0" width="905" height="1057" extended-state="0" />
+    <frame x="633" y="0" width="1294" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -280,7 +293,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26982248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20016207" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,27 +316,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="202" column="30" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/php/register_check.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -459,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -565,27 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="159" column="28" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="205" column="25" lean-forward="true" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -610,27 +574,17 @@
         <state relative-caret-position="-2808" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
+    <entry file="file://$PROJECT_DIR$/app/static/js/register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
-          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+        <state relative-caret-position="260">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
+    <entry file="file://$PROJECT_DIR$/app/static/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="242" column="34" selection-start-line="242" selection-start-column="34" selection-end-line="242" selection-end-column="34" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -641,10 +595,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/HTML/First_stage review/day16/新建文件夹/公转自转/3d公转自转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1289">
+          <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="248" column="17" selection-start-line="248" selection-start-column="17" selection-end-line="248" selection-end-column="17" />
+        <state relative-caret-position="-1196">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/新建文件夹/新建文件夹/杀马忠收/VIVO-phxq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9516">
+          <caret line="449" column="43" selection-start-line="449" selection-start-column="43" selection-end-line="449" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="84" column="26" lean-forward="true" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
