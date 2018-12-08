@@ -1,11 +1,11 @@
 #main{
     height: 1930px;
     width: 100%;
+    border-bottom: 1px solid #e0e0e0;
 }
 .main{
     height: 1930px;
     width: 100%;
-    border-bottom: 1px solid #e0e0e0;
 }
 .content{
     width: 1200px;
@@ -530,4 +530,131 @@
     border: 0;
     border-radius: 25px;
     margin-left: 27px;
+}
+/* 信息列表 */
+#message_wrapper{
+    height: 80px;
+}
+.message{
+    height: 80px;
+}
+.message ul{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.message ul li{
+    margin-right: 65px;
+    color: #999;
+    cursor: pointer;
+}
+.message ul li:hover{
+    color: #777;
+}
+#vivo_market{
+    /* height: 610px; */
+    background: #f2f3f5;
+    overflow: hidden;
+    display: none;
+}
+#vivo_market h1{
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 35px 0 60px 485px;
+}
+.vivo_nave{
+    background: #fff;
+    height: 410px;
+}
+.vivo_nave ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vivo_box a:nth-child(1){
+    display: block;
+    width: 100%;
+    height: 787px;
+    background: url('../img/particulars/banner5.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vivo_box a:nth-child(2){
+    display: block;
+    width: 100%;
+    height: 967px;
+    background: url('../img/particulars/banner3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vivo_box a:nth-child(3){
+    display: block;
+    width: 100%;
+    height: 623px;
+    background: url('../img/particulars/banner4.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vivo_box a:nth-child(4){
+    display: block;
+    width: 100%;
+    height: 816px;
+    background: url('../img/particulars/banner6.jpg') no-repeat center center;
+    background-size: cover;
+}
+/* 包装规格参数 */
+.tablist{ 
+	padding:0 0 10px 10px; 
+	overflow:hidden; 
+	zoom:1; 
+	display:none;
+}
+.tablist li{ 
+	float:left; 
+	margin-right:10px;
+}
+.pull-left {
+    float: left;
+}
+.prod-parameters-row {
+    padding: 60px 150px;
+    border-top: 1px solid #CCC;
+}
+.prod-parameters-rowHd {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 500;
+    width: 188px;
+    color: #333;
+    vertical-align: middle;
+    word-break: break-all;
+    word-wrap: break-word;
+    /* margin-left: 200px; */
+	border-right: 2px solid #CCC;
+}
+.prod-parameters-rowBd {
+    /* width: 910px; */
+    margin-left: 140px;
+    vertical-align: middle;
+}
+.prod-parameters-list {
+    font-size: 16px;
+    color: #666;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+/* 评论模块 */
+.comment{
+    height: 300px;
+}
+.comment .com_img{
+    margin: 65px 0 0 460px;
+    width: 197px;
+    height: 147px;
+    background: url('../img/particulars/pl.png')
+}
+.comment div:last-child{
+    margin: 30px 0 0 435px;
+    font-size: 16px;
+    color: #777;
 }
