@@ -12,10 +12,20 @@ body,html{
     background:rgba(26,26,26,.9);
     z-index: 99;
 }
+#header .curtain{
+    width: 100%;
+    height: 244px;
+    position: absolute;
+    z-index: 5;
+    top: -195px;
+    opacity: 0;
+    background: black;
+}
 .header{
     height: 48px;
     background: rgba(26,26,26,.9);
     position: relative;
+    z-index: 8;
 }
 .header .logo{
     display: block;
@@ -31,7 +41,7 @@ body,html{
     width: 70%;
     height: 100%;
     float: left;
-    margin-left: 110px;
+    margin-left: 180px;
 }
 .header .nav-left .first_li{
     width: 10%;
@@ -63,7 +73,7 @@ body,html{
 
 
 .nav-right {
-    width: 200px;
+    width: 146px;
     float: right;
     height: 48px;
 }
@@ -131,31 +141,14 @@ body,html{
 }
 
 /*-------------------------------------------二级菜单-------------------------------------------*/
-/*.second_nav_box{*/
-    /*width: 1200px;*/
-    /*height: 245px;*/
-    /*position: absolute;*/
-    /*background:rgba(26,26,26,.9);*/
-    /*top: -197px;*/
-    /*opacity: 0;*/
-
-    /*!*top: 0px;*!*/
-    /*!*opacity: 1;*!*/
-    /*!*z-index: -1;*!*/
-/*}*/
-/*.header:hover .second_nav_box{*/
-    /*display: block;*/
-    /*opacity: 1;*/
-    /*top: 0px;*/
-    /*transition: .5s ease;*/
-    /*z-index: -2;*/
-/*}*/
 .second_nav{
+    width: 205px;
     height: 196px;
     position: absolute;
     top: -196px;
     opacity: 0;
     background: rgba(26,26,26,.9);
+    margin-left: -70px;
 }
 .first_li:hover .second_nav{
     top: 48px;
@@ -164,26 +157,26 @@ body,html{
     z-index: 10;
     background: rgba(26,26,26,.9);
 }
-.second_nav li{
-     width: 146px;
+.header .nav-left .first_li .second_nav li{
+     width: 120px;
      height: 20%;
+     float: right;
+     z-index: 9;
+
 }
 .second_nav li a{
-    padding-left: 10px;
     font-size: 14px;
     height: 100%;
     display: flex;
     align-items: center;
     color: #C4C4C4;
+    margin-left: 9px;
 }
 .second_nav li a:hover{
     color: #FFFFFF;
-    background-color:#008cd7;
     transition: .8s;
 }
-
-
-/*-------------------------------------------头部-------------------------------------------*/
+/*-------------------------------------------底部-------------------------------------------*/
 
 #foot{
     overflow:hidden;
@@ -409,4 +402,93 @@ a.footer-logo {
 .sns-box .weixin:hover{
     background-color:#20a900;
     transition: .5s;
+}
+
+
+/*-----------------------------moon-----------------------------------*/
+.moon{
+    /*background: rgba(26,26,26,0);*/
+    border-right: solid 1px silver;
+    width:85px;
+    overflow: hidden;
+    height: 196px;
+    position: absolute;
+    z-index: 7;
+    float: left;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.fir_cirle{
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    border: solid 2px #0189D1;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transform-style: preserve-3d;
+    animation: z_active 5s linear infinite;
+}
+.sec_cirle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 1px #0189D1;
+    position: absolute;
+    top: 26px;
+    left: 12px;
+    transform-style: preserve-3d;
+    animation: z_active 5s linear infinite;
+}
+.thr_cirle{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: solid 1px #0189D1;
+    position: absolute;
+    top: 46px;
+    left: 19px;
+    transform-style: preserve-3d;
+    animation:y_active, z_active 5s linear infinite;
+}
+.fir_cirle span{
+    display: block;
+    width: 10px;
+    height:10px;
+    border: 1px solid #0189D1;
+    position: absolute;
+    left: 16px;
+    top: 20px;
+    border-radius: 50%;
+    background: #0189D1;
+}
+.sec_cirle span{
+    display: block;
+    width: 10px;
+    height:10px;
+    border: 1px solid #0189D1;
+    position: absolute;
+    left: 87px;
+    top: 20px;
+    border-radius: 50%;
+    background: #0189D1;
+}
+.thr_cirle span{
+    display: block;
+    width: 10px;
+    height:10px;
+    border: 1px solid #0189D1;
+    position: absolute;
+    left: 109px;
+    top: 20px;
+    border-radius: 50%;
+    background: #0189D1;
+}
+@keyframes z_active{
+    0%{
+        transform:rotateZ(0deg);
+    }
+    100%{
+        transform:rotateZ(360deg);
+    }
 }

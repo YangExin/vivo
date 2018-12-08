@@ -1,9 +1,9 @@
 #wrapper{
-    background: #FFFFFF;
+    background: url("../img/login/register_bg02.jpg") center no-repeat;
+    background-size: cover;
 }
 .wrapper{
     overflow: hidden;
-    background: url("../img/login/register_background.jpg") center no-repeat;
     background-size:  contain;
 }
 .register{
@@ -13,7 +13,10 @@
     background: #FFFFFF;
     padding-top: 60px;
     padding-bottom: 40px;
+    margin-bottom: 80px;
     opacity: .8;
+    border: solid 4px silver;
+    border-radius: 10px;
 }
 .register .re_title{
     width: 124px;
