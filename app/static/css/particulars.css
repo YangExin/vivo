@@ -75,9 +75,45 @@
     justify-content: space-between;
     align-items: center;
 }
+.main .show_box .smallImages li a{
+    display: block;
+    height: 95px;
+}
+.main .show_box .smallImages li a:hover{
+    border-bottom: 2px solid #4d4d4d;
+}
 .main .show_box .smallImages li a img{
     width: 81px;
     height: 81px;
+}
+.main .show_box .share{
+    width: 240px;
+    height: 30px;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    margin-top: 20px;
+}
+.main .show_box .share a{
+    display: flex;
+    height: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+.main .show_box .share .collect i{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url('../img/particulars/icon2.png') no-repeat -11px -33px;
+    margin-right: 5px;
+}
+.main .show_box .share .shareit i{
+    display: inline-block;
+    height: 17px;
+    width: 15px;
+    background: url('../img/particulars/icon2.png') no-repeat -11px -85px;
+    margin-right: 5px;
 }
 .main .contain{
     height: 1860px;
@@ -155,6 +191,7 @@
 .main .contain .introduction{
     width: 570px;
     height: 1220px;
+    border-bottom: 1px solid #e5e5e5;
 }
 .main .contain .introduction .support{
     margin-top: 30px;
@@ -439,10 +476,58 @@
 .main .contain .introduction .pay_money{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .main .contain .introduction .pay_money li{
     width: 158px;
     height: 93px;
     border: 1px solid #dddddd;
     border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+.main .contain .introduction .pay_money li:hover{
+    cursor: pointer;
+}
+.main .contain .select .select_type{
+    margin-top: 60px;
+}
+.main .contain .select .select_type span{
+    display: inline-block;
+    width: 75px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 18px;
+    color: #f51200;
+    border-right: 1px solid #e0e0e0;
+    margin-right: 20px;
+}
+.main .contain .select .select_type i{
+    color: #666666;
+    font-size: 14px;
+}
+.main .contain .select .select_btn{
+    margin-top: 63px;
+}
+.main .contain .select .select_btn .add{
+    width: 170px;
+    height: 47px;
+    background: #ff9536;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 25px;
+}
+.main .contain .select .select_btn .buynow{
+    width: 170px;
+    height: 47px;
+    background: #f51200;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 25px;
+    margin-left: 27px;
 }
