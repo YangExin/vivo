@@ -164,7 +164,10 @@
     cursor: pointer;
 }
 .main .contain .introduction .support .flower:hover .insta{
-    display: block;
+    /* display: block; */
+    opacity: 1;
+    transition: .6s;
+    z-index: 9;
 }
 .main .contain .introduction .support i{
     display: block;
@@ -187,8 +190,10 @@
     background: #fff;
     box-shadow: 0px 0px 50px #e7e7e7;
     margin-top: 20px;
-    display: none;
+    opacity: 0;
+    /* display: none; */
     color: #333333;
+    z-index: -2;
 }
 .main .contain .introduction .support .insta i{
     margin-left: 0;
@@ -198,8 +203,10 @@
     cursor: pointer;
 }
 .main .contain .introduction .support .use:hover .oldNew{
-    display: block;
-    cursor: pointer;
+    /* display: block; */
+    opacity: 1;
+    transition: .6s;
+    z-index: 9;
 }
 .main .contain .introduction .support .oldNew{
     width: 438px;
@@ -211,9 +218,11 @@
     padding: 25px 0 0 35px;
     box-shadow: 0px 0px 50px #e7e7e7;
     margin-top: 20px;
-    display: none;
+    /* display: none; */
+    opacity: 0;
     color: #333333;
     line-height: 26px;
+    z-index: -2;
 }
 .main .contain .introduction .support .oldNew i{
     width: 150px;
@@ -274,4 +283,150 @@
     width: 23px;
     border-radius: 50%;
     background: #f9f2fe;
+}
+/* 手机服务模块 */
+.main .contain .introduction h2 a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #666;
+}
+.main .contain .introduction h2 a:hover{
+    color: #f51200;
+}
+.main .contain .introduction .phoneSe a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 35px;
+    width: 468px;
+    height: 57px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 15px;
+}
+.main .contain .introduction .phoneSe a:hover{
+    color: #000;
+}
+.main .contain .introduction .phoneSe a i{
+    display: flex;
+    align-items: center;
+}
+.main .contain .introduction .phoneSe a span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    margin: 0 11px;
+}
+.main .contain .introduction .phoneSe div{
+    font-size: 14px;
+    color: #777777;
+    margin-top: 22px;
+
+}
+.main .contain .introduction .phoneSe div i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #212121;
+    margin-right: 10px;
+}
+.main .contain .introduction .phoneSe div a{
+    display: inline;
+    border: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+.main .contain .introduction .phoneSe div a:hover{
+    color: #f51200;
+}
+/* 镭射镌刻服务 */
+.main .contain .introduction .laser a{
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+}
+.main .contain .introduction .laser a:hover ul{
+    opacity: 1;
+    transition: .6s;
+    z-index: 9;
+}
+.main .contain .introduction .laser a ul{
+    position: absolute;
+    top: 40px;
+    left: -70px;
+    width: 490px;
+    height: 180px;
+    padding: 30px 0 0 35px;
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0 0 10px #aaaab6;
+    opacity: 0;
+    z-index: -2;
+    background: #fff;
+}
+.main .contain .introduction .laser a ul li{
+    font-size: 12px;
+    text-indent: 5px;
+    line-height: 25px;
+}
+.main .contain .introduction .laserSer a{
+    display: flex;
+    width: 370px;
+    height: 58px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    padding-left: 135px;
+    justify-content: left;
+    align-items: center;
+    margin-top: 25px;
+}
+.main .contain .introduction .laserSer a:hover{
+    color: #000;
+}
+.main .contain .introduction .laserSer a i{
+    display: inline-block;
+    height: 27px;
+    width: 27px;
+    background: url('../img/particulars/linght.jpg') no-repeat;
+    margin-right: 10px;
+}
+.main .contain .introduction .laserSer a span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    margin-left: 155px;
+}
+/* 数量 */
+.main .contain .introduction .count{
+    display: flex;
+    justify-content: left;
+}
+.main .contain .introduction .count p{
+    width: 73px;
+    height: 54px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 54px;
+    text-align: center;
+}
+.main .contain .introduction .count button:first-child{
+    width: 59px;
+    height: 56px;
+    border: 1px solid #ddd;
+    background: url('../img/particulars/icon2.png') no-repeat 1px -252px;
+    background-size: cover;
+}
+.main .contain .introduction .count button:last-child{
+    width: 59px;
+    height: 56px;
+    border: 1px solid #ddd;
+    background: url('../img/particulars/icon2.png') no-repeat 1px -213px;
+    background-size: cover;
 }
