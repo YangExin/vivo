@@ -244,11 +244,9 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: red;
 }
 .adver_content li{
     width: 474px;
-    background: #2899F7;
     overflow: hidden;
     position: relative;
     cursor: pointer;

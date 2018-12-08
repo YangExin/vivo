@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5690ff-e79c-4422-af87-c48afa2a3ce0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/VIVO-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/VIVO-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/aifeifan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/cdgj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-promos-x21i.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-promos-x23hcsdty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-promos-x23hcsy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/index/vivo-promos-y97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/x23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/particulars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/css/particulars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/particulars/dui_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone1S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone1B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone2S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone2B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone3S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone3B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone4S.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/particulars/phone9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/particulars/phone4B.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,20 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="273" column="34" lean-forward="true" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="34" />
+            <state relative-caret-position="181">
+              <caret line="248" column="17" selection-start-line="248" selection-start-column="17" selection-end-line="248" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/static/js/home.js" />
         <option value="$PROJECT_DIR$/app/VIVO-index.html" />
-        <option value="$PROJECT_DIR$/app/static/css/home.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/static/css/home.css" />
       </list>
     </option>
   </component>
@@ -256,12 +256,12 @@
       <workItem from="1544157752428" duration="103000" />
       <workItem from="1544164413631" duration="15307000" />
       <workItem from="1544186437125" duration="1747000" />
-      <workItem from="1544231045128" duration="8118000" />
+      <workItem from="1544231045128" duration="8321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111469000" />
+    <option name="totallyTimeSpent" value="111672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1022" y="0" width="905" height="1057" extended-state="0" />
@@ -634,17 +634,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="273" column="34" lean-forward="true" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="248" column="17" selection-start-line="248" selection-start-column="17" selection-end-line="248" selection-end-column="17" />
         </state>
       </provider>
     </entry>
