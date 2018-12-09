@@ -44,16 +44,24 @@
 }
 .main .show_box .bigImages{
     width: 630px;
-    height: 440px;
+    height: 630px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+.main .show_box .bigImages .hotsail{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    right: 70px;
 }
 .main .show_box .bigImages ul{
     position: relative;
-    height: 440px;
-    width: 350px;
+    height: 515px;
+    width: 515px;
 }
 .main .show_box .bigImages ul li{
     position: absolute;
@@ -65,8 +73,8 @@
     display: block;
 }
 .main .show_box .bigImages ul li img{
-    width: 350px;
-    height: 410px;
+    width: 515px;
+    height: 515px;
 }
 .main .show_box .smallImages{
     width: 380px;
