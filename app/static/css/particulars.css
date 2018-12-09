@@ -68,9 +68,13 @@
     top: 0;
     left: 0;
     display: none;
+    opacity: 0;
+    z-index: 1;
 }
 .main .show_box .bigImages ul .show_phone{
     display: block;
+    opacity: 1;
+    z-index: 9;
 }
 .main .show_box .bigImages ul li img{
     width: 515px;
@@ -307,7 +311,7 @@
     display: flex;
     justify-content: start;
 }
-.main .contain .introduction .color a{
+.main .contain .introduction .color p{
     display: flex;
     margin-right: 15px;
     justify-content: center;
@@ -320,14 +324,18 @@
     line-height: 58px;
     margin-top: 20px;
     color: #777;
+    cursor: pointer;
 }
-.main .contain .introduction .color a i{
+.main .contain .introduction .color p i{
     margin-right: 13px;
     display: inline-block;
     height: 23px;
     width: 23px;
     border-radius: 50%;
     background: #f9f2fe;
+}
+.main .contain .introduction .color p:first-child i{
+    background: #000;
 }
 /* 手机服务模块 */
 .main .contain .introduction h2 a{
@@ -553,18 +561,22 @@
     align-items: center;
 }
 .message ul li{
+    box-sizing: border-box;
+    height: 80px;
+    line-height: 80px;
     margin-right: 65px;
     color: #999;
     cursor: pointer;
 }
 .message ul li:hover{
     color: #777;
+    border-bottom: 2px solid #35a4e4;
 }
 #vivo_market{
     /* height: 610px; */
     background: #f2f3f5;
     overflow: hidden;
-    display: none;
+    /* display: none; */
 }
 #vivo_market h1{
     font-size: 36px;
@@ -671,7 +683,7 @@
 .sales{ 
     padding-left: 10px; 
     padding-bottom: 50px;
-	/* display:none; */
+	display:none;
 }
 .wrapper {
     position: relative;
