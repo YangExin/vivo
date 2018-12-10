@@ -31,8 +31,12 @@ var changeImages = (function(){
             })
             $('.phoneSe').on('click','p',function(){
                 $(this).toggleClass('p_bg').siblings().removeClass('p_bg');
-                $(this).find('span').toggleClass('i_bg').siblings().removeClass('i_bg');
+                $(this).find('span').toggleClass('i_bg').parent().siblings().find('span').removeClass('i_bg');
                 // $(this).parent().find('div').find('i').css('background','url(../img/particulars/icon2.png) no-repeat 10px 205px')
+            })
+            $('.laserSer').click(function(){
+                $(this).find('p').toggleClass('serP_bg');
+                $(this).find('span').toggleClass('span_bg');
             })
         }
     }

@@ -448,6 +448,10 @@
     margin-top: 25px;
     color: #777;
 }
+.main .contain .introduction .laserSer .serP_bg{
+    color: #000;
+    border-color: #000;
+}
 .main .contain .introduction .laserSer p:hover{
     color: #000;
     cursor: pointer;
@@ -466,6 +470,9 @@
     border: 1px solid #dfdfdf;
     border-radius: 50%;
     margin-left: 155px;
+}
+.main .contain .introduction .laserSer p .span_bg{
+    background: #000;
 }
 /* 数量 */
 .main .contain .introduction .count{
