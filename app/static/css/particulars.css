@@ -35,14 +35,14 @@
     color: #999999;
 }
 .main .show_box{
-    height: 800px;
+    height: 720px;
     width: 630px;
     display: flex;
     justify-content:start;
     align-items: center;
     flex-direction: column;
-    position: fixed;
-    top: 100px;
+    position: absolute;
+    top: 80px;
     left: 0;
 }
 .main .show_box .bigImages{
@@ -516,6 +516,10 @@
     justify-content: space-between;
     margin-top: 20px;
 }
+.main .contain .introduction .pay_money .pay_money_bg{
+    border-color: #000;
+    color: #000;
+}
 .main .contain .introduction .pay_money li{
     width: 158px;
     height: 93px;
@@ -528,6 +532,7 @@
     color: #777;
 }
 .main .contain .introduction .pay_money li:hover{
+    color: #000;
     cursor: pointer;
 }
 .main .contain .select .select_type{
@@ -550,6 +555,19 @@
 .main .contain .select .select_btn{
     margin-top: 63px;
 }
+.main .contain .select .times_bug{
+    display: none;
+    width: 170px;
+    height: 47px;
+    background: #f51200;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 25px;
+    margin-left: 27px;
+    margin-top: 63px;
+    cursor: pointer;
+}
 .main .contain .select .select_btn .add{
     width: 170px;
     height: 47px;
@@ -558,6 +576,7 @@
     font-size: 18px;
     border: 0;
     border-radius: 25px;
+    cursor: pointer;
 }
 .main .contain .select .select_btn .buynow{
     width: 170px;
@@ -568,6 +587,7 @@
     border: 0;
     border-radius: 25px;
     margin-left: 27px;
+    cursor: pointer;
 }
 /* 信息列表 */
 #message_wrapper{

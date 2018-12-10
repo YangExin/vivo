@@ -45,10 +45,23 @@ var changeImages = (function(){
             })
             //手机展示区域固定定位与绝对定位的切换
             $(window).scroll(function(){
-                console.log($(this).scrollTop());
+                // console.log($(this).scrollTop());
                 if($(this).scrollTop()  >= 1140){
-                    $('.show_box').css({'position':'absolute','top':'1140px','left':0})
-                }
+                    $('.show_box').css({'position':'absolute','top':'1210px','left':0})
+                } else if ($(this).scrollTop()  <= 1140){
+                    $('.show_box').css({'position':'fixed','top':80,'left':0})
+                }            
+            })
+            //改变分期付款样式
+            $('.pay_money').on('click','li',function(){
+                $(this).toggleClass('pay_money_bg').siblings().removeClass('pay_money_bg');
+                $('.times_bug').css('display','block');
+                $('.select_btn').css('display','none')
+                // if($('.pay_money_bg') == undefined){
+                //     $('.select_btn').css('display','block');
+                //     $('.times_bug').css('display','none');
+                // }
+                // console.log($('.pay_money_bg'))
             })
         }
     }
