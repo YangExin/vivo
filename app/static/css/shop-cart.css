@@ -1,0 +1,58 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+#wrap{
+	width: 100%;
+	background: #f7f7f5;	
+	/*background: #20A900;*/
+	padding-top: 5px;
+}
+.shop_top{
+	width: 1200px;
+	height: 66px;
+	background: #fff;
+	margin: 0 auto 20px;	
+	line-height: 66px;
+}
+.shop_top h2{
+	display: inline-block;
+	margin: 0 440px 0 546px;
+	font-size: 18px;
+	color:#000;
+}
+.shop_top a{
+	font-size: 14px;
+	color:#000;
+}
+.shop_top a:hover{
+	color: red;
+}
+.shop_data{
+	width: 1200px;
+	
+	margin: 0 auto;
+}
+.shop_data table:nth-child(1){
+	width: 1200px;
+	height: 64px;
+	background: #fff;
+}
+.shop_data table:nth-child(1) tr th{
+	color:#000;
+	font-size:14px;	
+}
+.shop_data table:nth-child(1) tr th:nth-child(1){
+	
+}
+.shop_data table:nth-child(1) tr th:nth-child(1) i>a{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #000;
+	margin-right:14px ;
+} 
+
+.shop_data table:nth-child(1) tr th:nth-child(1)>a:hover{
+	color:red;
+}
