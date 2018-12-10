@@ -6,6 +6,7 @@
 .main{
     height: 1930px;
     width: 100%;
+    position: relative;
 }
 .content{
     width: 1200px;
@@ -34,17 +35,19 @@
     color: #999999;
 }
 .main .show_box{
-    height: 1860px;
+    height: 720px;
     width: 630px;
-    float: left;
     display: flex;
     justify-content:start;
     align-items: center;
     flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
 }
 .main .show_box .bigImages{
     width: 630px;
-    height: 630px;
+    height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +58,9 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 60px;
-    right: 70px;
+    top: 10px;
+    right: 60px;
+    z-index: 2;
 }
 .main .show_box .bigImages ul{
     position: relative;
@@ -130,7 +134,7 @@
 .main .contain{
     height: 1860px;
     width: 570px;
-    float: left;
+    float: right;
 }
 .main .contain .title{
     width: 570px;
@@ -448,6 +452,10 @@
     margin-top: 25px;
     color: #777;
 }
+.main .contain .introduction .laserSer .serP_bg{
+    color: #000;
+    border-color: #000;
+}
 .main .contain .introduction .laserSer p:hover{
     color: #000;
     cursor: pointer;
@@ -466,6 +474,9 @@
     border: 1px solid #dfdfdf;
     border-radius: 50%;
     margin-left: 155px;
+}
+.main .contain .introduction .laserSer p .span_bg{
+    background: #000;
 }
 /* 数量 */
 .main .contain .introduction .count{
@@ -488,6 +499,7 @@
     border: 1px solid #ddd;
     background: url('../img/particulars/icon2.png') no-repeat 1px -252px;
     background-size: cover;
+    cursor: pointer;
 }
 .main .contain .introduction .count button:nth-child(3){
     width: 59px;
@@ -495,6 +507,7 @@
     border: 1px solid #ddd;
     background: url('../img/particulars/icon2.png') no-repeat 1px -213px;
     background-size: cover;
+    cursor: pointer;
 }
 .main .contain .introduction .count i{
     color: #999;
@@ -504,6 +517,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+}
+.main .contain .introduction .pay_money .pay_money_bg{
+    border-color: #000;
+    color: #000;
 }
 .main .contain .introduction .pay_money li{
     width: 158px;
@@ -517,6 +534,7 @@
     color: #777;
 }
 .main .contain .introduction .pay_money li:hover{
+    color: #000;
     cursor: pointer;
 }
 .main .contain .select .select_type{
@@ -539,6 +557,19 @@
 .main .contain .select .select_btn{
     margin-top: 63px;
 }
+.main .contain .select .times_bug{
+    display: none;
+    width: 170px;
+    height: 47px;
+    background: #f51200;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 25px;
+    margin-left: 27px;
+    margin-top: 63px;
+    cursor: pointer;
+}
 .main .contain .select .select_btn .add{
     width: 170px;
     height: 47px;
@@ -547,6 +578,7 @@
     font-size: 18px;
     border: 0;
     border-radius: 25px;
+    cursor: pointer;
 }
 .main .contain .select .select_btn .buynow{
     width: 170px;
@@ -557,6 +589,7 @@
     border: 0;
     border-radius: 25px;
     margin-left: 27px;
+    cursor: pointer;
 }
 /* 信息列表 */
 #message_wrapper{

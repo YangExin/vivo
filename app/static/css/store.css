@@ -704,7 +704,7 @@
 	color: #000000;
 	font-size: 16px;
 }
-.content_phone ul li:nth-child(4) .marquee p{
+.content_phone ul li:nth-child(6) .marquee p{
 	width: 294px;
 	text-align: center;
 	margin-top:5px;
@@ -954,17 +954,7 @@
 	font-size: 16px;
 	color:red;
 }
-.content_accessories ul li:hover{
-	box-shadow: 0px 5px 10px #6C6C6C;
-	margin-top:-3px;
-	transition: .4s;
-}
-.content_accessories ul li:hover .annotation{
-	display: none;
-}
-.content_accessories ul li:hover .marquee{
-	display: block;
-}
+
 
 
 .content_accessories ul li:nth-child(1){
@@ -1065,4 +1055,14 @@
 	
 }
 
-
+.content_accessories ul li:hover{
+	box-shadow: 0px 5px 10px #6C6C6C;
+	margin-top:-3px;
+	transition: 0.4s;
+}
+.content_accessories ul li:hover .annotation{
+	display: none;
+}
+.content_accessories ul li:hover .marquee{
+	display: block;
+}
