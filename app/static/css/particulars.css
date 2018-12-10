@@ -6,6 +6,7 @@
 .main{
     height: 1930px;
     width: 100%;
+    position: relative;
 }
 .content{
     width: 1200px;
@@ -34,17 +35,19 @@
     color: #999999;
 }
 .main .show_box{
-    height: 1860px;
+    height: 800px;
     width: 630px;
-    float: left;
     display: flex;
     justify-content:start;
     align-items: center;
     flex-direction: column;
+    position: fixed;
+    top: 100px;
+    left: 0;
 }
 .main .show_box .bigImages{
     width: 630px;
-    height: 630px;
+    height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +58,9 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 60px;
-    right: 70px;
+    top: 10px;
+    right: 60px;
+    z-index: 2;
 }
 .main .show_box .bigImages ul{
     position: relative;
@@ -130,7 +134,7 @@
 .main .contain{
     height: 1860px;
     width: 570px;
-    float: left;
+    float: right;
 }
 .main .contain .title{
     width: 570px;
