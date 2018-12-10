@@ -2,12 +2,37 @@ body,html{
 	width: 100%;
 	height: 100%;
 }
-#wrap{
+#cart_wrap{
 	width: 100%;
 	background: #f7f7f5;	
 	/*background: #20A900;*/
 	padding-top: 5px;
 }
+/*隐藏的空购物车*/
+.empty{
+	width: 100%;
+	height: 492px;
+	background: #f7f7f5;
+	display: none;	
+}
+.empty img{
+	width: 215px;
+	height: 164px;
+	margin:65px 0 60px 592px;
+}
+.empty p{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color:#666;
+}
+.empty a{
+	font-size:14px;
+	color:#008ddc;
+}
+
+
+/*添加物品的购物车*/
 .shop_top{
 	width: 1200px;
 	height: 66px;
@@ -29,8 +54,7 @@ body,html{
 	color: red;
 }
 .shop_data{
-	width: 1200px;
-	
+	width: 1200px;	
 	margin: 0 auto;
 }
 .shop_data table:nth-child(1){
@@ -41,18 +65,35 @@ body,html{
 .shop_data table:nth-child(1) tr th{
 	color:#000;
 	font-size:14px;	
-}
-.shop_data table:nth-child(1) tr th:nth-child(1){
 	
 }
-.shop_data table:nth-child(1) tr th:nth-child(1) i>a{
+
+.shop_data table:nth-child(1) tr th:nth-child(1) i a{
 	display: inline-block;
-	width: 18px;
-	height: 18px;
-	border: 1px solid #000;
-	margin-right:14px ;
+	width: 20px;
+	height: 20px;
+	background: url(../img/shop-cart/4.png) no-repeat -10px -237px;
+	margin-right: 14px;
+	vertical-align: middle;
 } 
 
 .shop_data table:nth-child(1) tr th:nth-child(1)>a:hover{
 	color:red;
+}
+.shop_data table:nth-child(2){
+	width: 1200px;
+	background: #fff;
+	margin-top: 2px;
+	
+}
+.shop_data table:nth-child(2) tr td:nth-child(1){
+	padding-left: 60px;
+	
+}
+.shop_data table:nth-child(2) tr td:nth-child(1) a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/shop-cart/4.png) no-repeat -10px -237px;
+	vertical-align: middle;
 }
