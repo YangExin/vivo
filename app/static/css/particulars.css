@@ -1,11 +1,11 @@
 #main{
     height: 1930px;
     width: 100%;
+    border-bottom: 1px solid #e0e0e0;
 }
 .main{
     height: 1930px;
     width: 100%;
-    border-bottom: 1px solid #e0e0e0;
 }
 .content{
     width: 1200px;
@@ -44,29 +44,41 @@
 }
 .main .show_box .bigImages{
     width: 630px;
-    height: 440px;
+    height: 630px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+.main .show_box .bigImages .hotsail{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    right: 70px;
 }
 .main .show_box .bigImages ul{
     position: relative;
-    height: 440px;
-    width: 350px;
+    height: 515px;
+    width: 515px;
 }
 .main .show_box .bigImages ul li{
     position: absolute;
     top: 0;
     left: 0;
     display: none;
+    opacity: 0;
+    z-index: 1;
 }
 .main .show_box .bigImages ul .show_phone{
     display: block;
+    opacity: 1;
+    z-index: 9;
 }
 .main .show_box .bigImages ul li img{
-    width: 350px;
-    height: 410px;
+    width: 515px;
+    height: 515px;
 }
 .main .show_box .smallImages{
     width: 380px;
@@ -75,9 +87,45 @@
     justify-content: space-between;
     align-items: center;
 }
+.main .show_box .smallImages li a{
+    display: block;
+    height: 95px;
+}
+.main .show_box .smallImages li a:hover{
+    border-bottom: 2px solid #4d4d4d;
+}
 .main .show_box .smallImages li a img{
     width: 81px;
     height: 81px;
+}
+.main .show_box .share{
+    width: 240px;
+    height: 30px;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    margin-top: 20px;
+}
+.main .show_box .share a{
+    display: flex;
+    height: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+.main .show_box .share .collect i{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url('../img/particulars/icon2.png') no-repeat -11px -33px;
+    margin-right: 5px;
+}
+.main .show_box .share .shareit i{
+    display: inline-block;
+    height: 17px;
+    width: 15px;
+    background: url('../img/particulars/icon2.png') no-repeat -11px -85px;
+    margin-right: 5px;
 }
 .main .contain{
     height: 1860px;
@@ -155,6 +203,7 @@
 .main .contain .introduction{
     width: 570px;
     height: 1220px;
+    border-bottom: 1px solid #e5e5e5;
 }
 .main .contain .introduction .support{
     margin-top: 30px;
@@ -164,7 +213,10 @@
     cursor: pointer;
 }
 .main .contain .introduction .support .flower:hover .insta{
-    display: block;
+    /* display: block; */
+    opacity: 1;
+    transition: .6s;
+    z-index: 9;
 }
 .main .contain .introduction .support i{
     display: block;
@@ -187,8 +239,10 @@
     background: #fff;
     box-shadow: 0px 0px 50px #e7e7e7;
     margin-top: 20px;
-    display: none;
+    opacity: 0;
+    /* display: none; */
     color: #333333;
+    z-index: -2;
 }
 .main .contain .introduction .support .insta i{
     margin-left: 0;
@@ -198,8 +252,10 @@
     cursor: pointer;
 }
 .main .contain .introduction .support .use:hover .oldNew{
-    display: block;
-    cursor: pointer;
+    /* display: block; */
+    opacity: 1;
+    transition: .6s;
+    z-index: 9;
 }
 .main .contain .introduction .support .oldNew{
     width: 438px;
@@ -211,9 +267,11 @@
     padding: 25px 0 0 35px;
     box-shadow: 0px 0px 50px #e7e7e7;
     margin-top: 20px;
-    display: none;
+    /* display: none; */
+    opacity: 0;
     color: #333333;
     line-height: 26px;
+    z-index: -2;
 }
 .main .contain .introduction .support .oldNew i{
     width: 150px;
@@ -253,7 +311,7 @@
     display: flex;
     justify-content: start;
 }
-.main .contain .introduction .color a{
+.main .contain .introduction .color p{
     display: flex;
     margin-right: 15px;
     justify-content: center;
@@ -266,12 +324,412 @@
     line-height: 58px;
     margin-top: 20px;
     color: #777;
+    cursor: pointer;
 }
-.main .contain .introduction .color a i{
+.main .contain .introduction .color p i{
     margin-right: 13px;
     display: inline-block;
     height: 23px;
     width: 23px;
     border-radius: 50%;
     background: #f9f2fe;
+}
+.main .contain .introduction .color p:first-child i{
+    background: #000;
+}
+/* 手机服务模块 */
+.main .contain .introduction h2 a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #666;
+}
+.main .contain .introduction h2 a:hover{
+    color: #f51200;
+}
+.main .contain .introduction .phoneSe a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 35px;
+    width: 468px;
+    height: 57px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 15px;
+}
+.main .contain .introduction .phoneSe a:hover{
+    color: #000;
+}
+.main .contain .introduction .phoneSe a i{
+    display: flex;
+    align-items: center;
+}
+.main .contain .introduction .phoneSe a span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    margin: 0 11px;
+}
+.main .contain .introduction .phoneSe div{
+    font-size: 14px;
+    color: #777777;
+    margin-top: 22px;
+
+}
+.main .contain .introduction .phoneSe div i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #212121;
+    margin-right: 10px;
+}
+.main .contain .introduction .phoneSe div a{
+    display: inline;
+    border: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+.main .contain .introduction .phoneSe div a:hover{
+    color: #f51200;
+}
+/* 镭射镌刻服务 */
+.main .contain .introduction .laser a{
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+}
+.main .contain .introduction .laser a:hover ul{
+    opacity: 1;
+    transition: .6s;
+    z-index: 9;
+}
+.main .contain .introduction .laser a ul{
+    position: absolute;
+    top: 40px;
+    left: -70px;
+    width: 490px;
+    height: 180px;
+    padding: 30px 0 0 35px;
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0 0 10px #aaaab6;
+    opacity: 0;
+    z-index: -2;
+    background: #fff;
+}
+.main .contain .introduction .laser a ul li{
+    font-size: 12px;
+    text-indent: 5px;
+    line-height: 25px;
+}
+.main .contain .introduction .laserSer a{
+    display: flex;
+    width: 370px;
+    height: 58px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    padding-left: 135px;
+    justify-content: left;
+    align-items: center;
+    margin-top: 25px;
+}
+.main .contain .introduction .laserSer a:hover{
+    color: #000;
+}
+.main .contain .introduction .laserSer a i{
+    display: inline-block;
+    height: 27px;
+    width: 27px;
+    background: url('../img/particulars/linght.jpg') no-repeat;
+    margin-right: 10px;
+}
+.main .contain .introduction .laserSer a span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    margin-left: 155px;
+}
+/* 数量 */
+.main .contain .introduction .count{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+.main .contain .introduction .count p{
+    width: 73px;
+    height: 54px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 54px;
+    text-align: center;
+}
+.main .contain .introduction .count button:first-child{
+    width: 59px;
+    height: 56px;
+    border: 1px solid #ddd;
+    background: url('../img/particulars/icon2.png') no-repeat 1px -252px;
+    background-size: cover;
+}
+.main .contain .introduction .count button:nth-child(3){
+    width: 59px;
+    height: 56px;
+    border: 1px solid #ddd;
+    background: url('../img/particulars/icon2.png') no-repeat 1px -213px;
+    background-size: cover;
+}
+.main .contain .introduction .count i{
+    color: #999;
+    margin-left: 25px;
+}
+.main .contain .introduction .pay_money{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main .contain .introduction .pay_money li{
+    width: 158px;
+    height: 93px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+.main .contain .introduction .pay_money li:hover{
+    cursor: pointer;
+}
+.main .contain .select .select_type{
+    margin-top: 60px;
+}
+.main .contain .select .select_type span{
+    display: inline-block;
+    width: 75px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 18px;
+    color: #f51200;
+    border-right: 1px solid #e0e0e0;
+    margin-right: 20px;
+}
+.main .contain .select .select_type i{
+    color: #666666;
+    font-size: 14px;
+}
+.main .contain .select .select_btn{
+    margin-top: 63px;
+}
+.main .contain .select .select_btn .add{
+    width: 170px;
+    height: 47px;
+    background: #ff9536;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 25px;
+}
+.main .contain .select .select_btn .buynow{
+    width: 170px;
+    height: 47px;
+    background: #f51200;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 25px;
+    margin-left: 27px;
+}
+/* 信息列表 */
+#message_wrapper{
+    height: 80px;
+}
+.message{
+    height: 80px;
+}
+.message ul{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.message ul li{
+    box-sizing: border-box;
+    height: 80px;
+    line-height: 80px;
+    margin-right: 65px;
+    color: #999;
+    cursor: pointer;
+}
+.message ul li:hover{
+    color: #777;
+    border-bottom: 2px solid #35a4e4;
+}
+#vivo_market{
+    /* height: 610px; */
+    background: #f2f3f5;
+    overflow: hidden;
+    /* display: none; */
+}
+#vivo_market h1{
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 35px 0 60px 485px;
+}
+.vivo_nave{
+    background: #fff;
+    height: 410px;
+}
+.vivo_nave ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vivo_box a:nth-child(1){
+    display: block;
+    width: 100%;
+    height: 787px;
+    background: url('../img/particulars/banner5.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vivo_box a:nth-child(2){
+    display: block;
+    width: 100%;
+    height: 967px;
+    background: url('../img/particulars/banner3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vivo_box a:nth-child(3){
+    display: block;
+    width: 100%;
+    height: 623px;
+    background: url('../img/particulars/banner4.jpg') no-repeat center center;
+    background-size: cover;
+}
+.vivo_box a:nth-child(4){
+    display: block;
+    width: 100%;
+    height: 816px;
+    background: url('../img/particulars/banner6.jpg') no-repeat center center;
+    background-size: cover;
+}
+/* 包装规格参数 */
+.tablist{ 
+	padding:0 0 10px 10px; 
+	overflow:hidden; 
+	zoom:1; 
+	display:none;
+}
+.tablist li{ 
+	float:left; 
+	margin-right:10px;
+}
+.pull-left {
+    float: left;
+}
+.prod-parameters-row {
+    padding: 60px 150px;
+    border-top: 1px solid #CCC;
+}
+.prod-parameters-rowHd {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 500;
+    width: 188px;
+    color: #333;
+    vertical-align: middle;
+    word-break: break-all;
+    word-wrap: break-word;
+    /* margin-left: 200px; */
+	border-right: 2px solid #CCC;
+}
+.prod-parameters-rowBd {
+    /* width: 910px; */
+    margin-left: 140px;
+    vertical-align: middle;
+}
+.prod-parameters-list {
+    font-size: 16px;
+    color: #666;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+/* 评论模块 */
+.comment{
+    height: 300px;
+    display: none;
+}
+.comment .com_img{
+    margin: 65px 0 0 460px;
+    width: 197px;
+    height: 147px;
+    background: url('../img/particulars/pl.png')
+}
+.comment div:last-child{
+    margin: 30px 0 0 435px;
+    font-size: 16px;
+    color: #777;
+}
+/* 售后服务模块 */
+.sales{ 
+    padding-left: 10px; 
+    padding-bottom: 50px;
+	display:none;
+}
+.wrapper {
+    position: relative;
+    width: 1260px;
+    margin: 0 auto;
+}
+.prod-afterservice-box li{
+	margin-left: 38px;
+    min-height: 115px;
+    padding-left: 147px;
+    padding-right: 38px;
+    padding-top: 45px;
+    padding-bottom: 46px;
+    position: relative;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.prod-afterservice-box li.return b {
+    background-position: 0 0;
+}
+.prod-afterservice-box li b {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 116px;
+    height: 116px;
+    overflow: hidden;
+    background:url('../img/particulars/icon1.png') no-repeat;
+}
+.prod-afterservice-box li h3 {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.prod-afterservice-box li p {
+    font-size: 14px;
+    line-height: 24px;
+	text-align: left;
+}
+.prod-afterservice-box .change_p b {
+    background-position: 0 -130px;
+}
+.prod-afterservice-box .warranty b {
+    background-position: 0 -260px;
+}
+.prod-afterservice-box .after_sales b {
+    background-position: 0 -390px;
 }
