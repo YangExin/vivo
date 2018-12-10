@@ -1,91 +1,122 @@
-<<<<<<< HEAD
-var gulp = require('gulp');
-
-gulp.task('default', function() {
-  // 将你的默认的任务代码放在这
-  console.log(1 + 2);
-});
-gulp.task('minihtml',function(){
-    console.log('压缩html');
-});
-gulp.task('minicss',function(){
-    console.log('压缩cssl');
-});
-gulp.task('miniimages',function(){
-    console.log('压缩images');
-});
-gulp.task('mini',['minihtml','minicss','miniimages'],function(){
-    console.log('压缩ok');
-})
-
-
-var gulp= require('gulp');
-=======
-
-var gulp = require('gulp');
+var gulp = require('gulp');//引入gulp
 var uglify = require('gulp-uglify');//压缩js
+var babel = require('gulp-babel');//es6转译
+var connect = require('gulp-connect');//服务器
 var concat = require('gulp-concat');//合并
-var rename = require('gulp-rename');//重命名
-var babel = require('gulp-babel');//兼容ES6
-var connect = require('gulp-connect');//链接服务器
-var csso = require('gulp-csso');//压缩CSS
-var imagemin = require('gulp-imagemin');//压缩图片
-var htmlminify = require('gulp-html-minify');//压缩HTML文件
-var connet = require('gulp-connect');//服务器
-var rev = require('gulp-rev');//Hash哈希码
-var del = require('del');//删除
-var runSequence = require('run-sequence');//控制同步，异步
+// var minicss = require('gulp-clean-css');//引入css
+var minihtml = require('gulp-html-minify');//引入html
+var del = require('del');//删除整个文件
+const rev = require('gulp-rev');//添加版本号
+var revCollector = require('gulp-rev-collector');//修改路径版本号
+var run = require('run-sequence');//异步执行
+var miniimg = require('gulp-imagemin');//图片压缩
 
-
+//所有文件实时更新
 gulp.task('default', function(callback) {
-    // 将你的默认的任务代码放在这
-    run(['minijs','miniimg','minicss'],
+    run(['minijs','minicss'],
         'minihtml',
-        'watch',
+        // 'watch',
         'connect',
         callback);
 })
-gulp.task('minihtml', function() {
-    console.log('我要开始压缩html')
-})
-gulp.task('minicss', function() {
-    console.log('我要开始压缩css')
-    gulp.src('app/static/css/*')
-        .pipe(gulp.dest('dist/static/css'))
-        .pipr(connect.reload())
-})
-gulp.task('miniimg', function() {
-    console.log('我要开始压缩miniimage')
-    gulp.src('app/static/img/*')
-        .pipe(gulp.dest('dist/static/img'))
-        .pipr(connect.reload())
-})
 
-gulp.task('minijs', function() {
-    console.log('我要开始压缩js')
-    gulp.src('app/static/js/*')
+
+
+//压缩js
+gulp.task('minijs',function(){
+    gulp.src('app/static/js/*.js')
         .pipe(babel({
             presets: ['@babel/env']
         }))
-        // .pipe(concat('all.js'))
         .pipe(uglify())
-        .pipe(rev())
-        // .pipe(rename({
-        //     // 添加后缀
-        //     suffix: '.min'
-        // }))
+        .pipe(gulp.dest('dist/static/js'))
+        .pipe(connect.reload())
+})
+//压缩css
+gulp.task('minicss',function(){
+    gulp.src('app/static/css/*.css')
+        .pipe(minicss())
+        .pipe(gulp.dest('dist/static/css'))
+        .pipe(connect.reload())
+})
+//压缩HTML
+gulp.task('minihtml',function(){
+    gulp.src('app/*.html')
         .pipe(gulp.dest('dist'))
-        .pipe(rev.manifest())
-        .pipe(gulp.dest('rev/js'))
-    // .pipe(connect.reload());
-    // 可以再次合并文件, 给文件重命名
-    // .pipe(concat('all.min.js'))
-    // .pipe(gulp.dest('dist'))
+        .pipe(connect.reload())//实时刷新
 })
-gulp.task('clean',function () {
-    del(['dist'])
+//图片压缩
+// gulp.task('miniimg',function(){
+//     gulp.src('app/static/images/*')
+//         .pipe(gulp.dest('dist/static/images'))
+//         .pipe(connect.reload())
+// })
+
+
+//监听实时更新
+// gulp.task('watch',function(){
+//     gulp.watch('app/static/js/index.js',['minijs'])
+//     gulp.watch('app/static/css/index.css',['minicss'])
+//     gulp.watch('app/static/images/bg71.png',['miniimg'])
+//     gulp.watch('app/index.html',['minihtml'])
+// })
+
+//打开服务器
+gulp.task('connect',function(){
+    connect.server({
+        root: 'app',//服务器默认文件夹
+        port: '7843',//端口号
+        livereload: true
+    })
+    console.log('服务器已开启')
 })
-gulp.task('mini',['minihtml','minicss','miniimage'],function(){
-    console.log('压缩成功')
-})
->>>>>>> e5fe18045e81ceaa514a3b11c2bc346132b12d82
+
+
+
+
+
+//删除文件
+// gulp.task('clean', function () {
+//     del(['dist'])
+// });
+
+
+
+
+// gulp.task('_default',['minijs','minihtml'])
+// gulp.task('default', ['minihtml', 'watch', 'connect']);
+
+// gulp.task('default', function() {
+//   // 将你的默认的任务代码放在这
+//   console.log(1 + 2);
+// });
+
+//压缩js
+// gulp.task('minijs', function() {
+//     gulp.src('app/static/js/index.js')
+//     .pipe(babel({
+//         presets: ['@babel/env']
+//     }))
+//     .pipe(uglify())
+//     .pipe(rev())
+//     .pipe(gulp.dest('dist'))
+//     .pipe(rev.manifest())//生成一个json文件，存放文件名称
+//     .pipe(gulp.dest('rev/js'))
+//   })
+
+//   //压缩HTML
+// gulp.task('minihtml',function(){
+//     gulp.src('app/static/a.html')
+//     .pipe(gulp.dest('dist'))
+//     .pipe(connect.reload())//实时刷新
+// })
+
+// //压缩css
+// gulp.task('minicss',function(){
+//     gulp.src('app/**/*.css')
+//     .pipe(minicss())
+//     .pipe(gulp.dest('dist/static/css'))
+// })
+
+
+

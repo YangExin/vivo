@@ -81,9 +81,9 @@ $(function () {
     });
     function showImage() {
         $('.banner .btn_list li').removeClass('choose');
-        $('.img_list').animate({'opacity':0,'z-index':1});
+        $('.img_list').stop().animate({'opacity':0,'z-index':1});
         $('.banner .btn_list li').eq(which).addClass('choose');
-        $('.img_list').eq(which).animate({'opacity':1,'z-index':2});
+        $('.img_list').eq(which).stop().animate({'opacity':1,'z-index':2});
         if (which == 0){
             nex_active();
             z3_reset();
