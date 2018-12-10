@@ -499,6 +499,7 @@
     border: 1px solid #ddd;
     background: url('../img/particulars/icon2.png') no-repeat 1px -252px;
     background-size: cover;
+    cursor: pointer;
 }
 .main .contain .introduction .count button:nth-child(3){
     width: 59px;
@@ -506,6 +507,7 @@
     border: 1px solid #ddd;
     background: url('../img/particulars/icon2.png') no-repeat 1px -213px;
     background-size: cover;
+    cursor: pointer;
 }
 .main .contain .introduction .count i{
     color: #999;

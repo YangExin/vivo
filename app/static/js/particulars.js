@@ -63,6 +63,13 @@ var changeImages = (function(){
                 // }
                 // console.log($('.pay_money_bg'))
             })
+            //增加或减少购买数量，最多5部
+            $('.less').click(function(){
+                $(this).parent().find('p').val()
+            })
+            $('.plus').click(function(){
+                $(this).parent().find('p').val()
+            })
         }
     }
 }())
