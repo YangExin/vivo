@@ -121,3 +121,12 @@ $(function () {
     },3000)
 
 }())
+
+$('.product_cont').on('mouseenter', 'li',function () {
+    $(this).find('p').stop().slideDown();
+    $(this).find('.small_img').stop().animate({'left':-418,'opacity':0})
+})
+$('.product_cont').on('mouseleave', 'li',function () {
+    $(this).find('p').stop().slideUp();
+    $(this).find('.small_img').stop().animate({'left':24,'opacity':1})
+})
