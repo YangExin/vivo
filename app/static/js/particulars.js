@@ -57,18 +57,27 @@ var changeImages = (function(){
                 $(this).toggleClass('pay_money_bg').siblings().removeClass('pay_money_bg');
                 $('.times_bug').css('display','block');
                 $('.select_btn').css('display','none')
-                // if($('.pay_money_bg') == undefined){
-                //     $('.select_btn').css('display','block');
-                //     $('.times_bug').css('display','none');
-                // }
-                // console.log($('.pay_money_bg'))
+                if($('.pay_money_bg').length == 0){
+                    $('.select_btn').css('display','block');
+                    $('.times_bug').css('display','none');
+                }
+                console.log($('.pay_money_bg'))
             })
             //增加或减少购买数量，最多5部
+            var num = 1;   
             $('.less').click(function(){
-                $(this).parent().find('p').val()
+                num--;
+                if(num <= 1){
+                    num = 1;
+                }
+                $(this).parent().find('p').html(num)
             })
             $('.plus').click(function(){
-                $(this).parent().find('p').val()
+                num++; 
+                if(num >= 5){
+                    num = 5;
+                }
+                $(this).parent().find('p').html(num)
             })
         }
     }
