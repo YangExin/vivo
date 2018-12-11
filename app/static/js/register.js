@@ -33,7 +33,7 @@ var register = (function(){
                         var bool = checkInput[this.name](this.value);
                         if(bool) {
                             // 验证成功
-                            sendAjax('../server/php/register_check.php',{
+                            sendAjax('http://localhost:1023/vivo/server/php/register_check.php',{
                                 data: {
                                     username: this.value
                                 },
