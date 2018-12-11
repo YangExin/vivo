@@ -49,7 +49,7 @@ var changeImages = (function(){
                 if($(this).scrollTop()  >= 1140){
                     $('.show_box').css({'position':'absolute','top':'1210px','left':0})
                 } else if ($(this).scrollTop()  <= 1140){
-                    $('.show_box').css({'position':'fixed','top':80,'left':0})
+                    $('.show_box').css({'position':'fixed','top':80,'left':'18%'})
                 }            
             })
             //改变分期付款样式

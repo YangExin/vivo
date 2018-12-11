@@ -25,40 +25,154 @@
 }
 
 /*------------------------banner中的二级菜单------------------------*/
-.banner_nav .banner_nav_left ul{
+.banner_nav .banner_nav_left .white_menu{
 	position: absolute;
 	top: 166px;
 	left: 0px;
 	width: 202px;
 	z-index: 3;
 	background: #000;
-	opacity: .6;
+	background: rgba(65,65,65,0.8);
 	padding-top: 42px;
 	padding-bottom: 42px;
 }
-.banner_nav .banner_nav_left ul li {
+.banner_nav .banner_nav_left .white_menu li {
 	color: #FFFFFF;
+	color: black;
 	height: 62px;
 	line-height: 62px;
 	padding-left: 16px;
 	padding-right: 16px;
 }
-.banner_nav .banner_nav_left ul li:hover{
+.banner_nav .banner_nav_left .white_menu li:hover{
 	background: #FFFFFF;
 	opacity: 1;
 	color: black;
 	transition: .6s;
 }
-.banner_nav .banner_nav_left ul li span{
+.banner_nav .banner_nav_left .white_menu li:hover .menu_outBox{
+	display: block;
+}
+.banner_nav .banner_nav_left .white_menu li span{
 	float: right;
 	display: block;
 }
+.banner_nav .banner_nav_left .menu_outBox{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	width: 794px;
+	height: 518px;
+	z-index: 3;
+	display: none;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box{
+    position: absolute;
+    width: 764px;
+    height: 518px;
+    background: #FFFFFF;
+    top: 0px;
+    left: 30px;
+    z-index: 3;
+	display: block;
+}
+.menu_box_active{
+	z-index: 3;
+	opacity: 1;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .menu_box_top{
+    border-bottom: 1px solid #E5E5E5;
+    height: 142px;
+    padding: 8px 50px 0 44px;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box span:nth-child(1){
+    display: block;
+    float: left;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box span:nth-child(2){
+    display: block;
+    float: right;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .phone_cate{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .phone_cate li{
+    float: left;
+    width: 124px;
+    height: 52px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .phone_cate li:hover{
+	box-shadow: inset 0px 0px 20px #aaaab6;
+	transition: .4s;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .phone_cate li:nth-child(1){
+    background: url("../img/store/NEX.jpg") no-repeat center;
+    background-size: cover;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .phone_cate li:nth-child(2){
+    background: url("../img/store/X.jpg") no-repeat center;
+    background-size: cover;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .phone_cate li:nth-child(3){
+    background: url("../img/store/Y.png") no-repeat center;
+    background-size: cover;
+}
+.banner_nav .banner_nav_left .menu_outBox .menu_box .phone_cate li:nth-child(4){
+    background: url("../img/store/Z.jpg") no-repeat center;
+    background-size: cover;
+}
+.menu_box .menu_box_bot{
+	width: 764px;
+	height: 370px;
+}
+.menu_box .menu_box_bot ul{
+	width: 764px;
+	height: 336px;
+	/*padding: 0 50px 0 44px;*/
+	overflow: hidden;
+}
+.banner_nav .banner_nav_left .white_menu .menu_outBox .menu_box .menu_box_bot ul li{
+	width: 202px;
+	height: 46px;
+	float: left;
+	margin-top: 30px;
+	font-size: 13px;
+}
+.banner_nav .banner_nav_left .white_menu .menu_outBox .menu_box .menu_box_bot ul li:nth-child(2){
+	margin: 30px 30px 0 30px;
+}
+.banner_nav .banner_nav_left .white_menu .menu_outBox .menu_box .menu_box_bot ul li:nth-child(5){
+	margin: 30px 30px 0 30px;
+}
+.banner_nav .banner_nav_left .white_menu .menu_outBox .menu_box .menu_box_bot ul li:nth-child(8){
+	margin: 30px 30px 0 30px;
+}
+.banner_nav .banner_nav_left .white_menu .menu_outBox .menu_box .menu_box_bot ul li:nth-child(11){
+	margin: 30px 30px 0 30px;
+}
+.banner_nav .banner_nav_left .white_menu .menu_outBox .menu_box .menu_box_bot ul li img{
+	display: block;
+	width: 46px;
+	height: 46px;
+	float: left;
+}
+.banner_nav .banner_nav_left .white_menu .menu_outBox .menu_box .menu_box_bot ul li p{
+	height: 100%;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+}
 
 
-
-
-
-				/*热卖专区*/
+/*--------------------------热卖专区-----------------------------*/
 .content_selling{
 	width: 1200px;
 }
@@ -100,24 +214,29 @@
 }
 .content_selling ul li .phone a{
 	display: block;
+	opacity: 1;
+	z-index: 3;
 	width: 148px;
 	height: 184px;
 	background-size: cover;
 }
 .content_selling ul li .phone_hidden{
+	opacity: 1;
+	z-index: 3;
 	width: 148px;
 	height: 184px;
 	position: absolute;
 	left:50% ;
 	margin-left: -74px;
 	margin-top: 80px;
-	display: none;	
 }
-.content_selling ul li .phone_hidden .a1{
+.content_selling ul li .phone_hidden .blue_phone{
 	display: block;
 	width: 148px;
 	height: 184px;
-	background-size: cover;	
+	background-size: cover;
+	z-index: 1;
+	opacity: 0;
 }
 
 .content_selling ul li .annotation{
@@ -148,7 +267,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #e2e1e1;
+	background: #E28FB9;
 	display: inline-block;
 	margin:8px 8px;
 }
@@ -156,7 +275,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #000;
+	background: #056be8;
 	display: inline-block;
 	margin:8px 8px;
 }
@@ -184,7 +303,7 @@
 	background: url(../img/store/103.png) no-repeat center;
 	background-size:100%;
 }
-.content_selling ul li:nth-child(1) .phone_hidden .a1{
+.content_selling ul li:nth-child(1) .phone_hidden .blue_phone{
 	background: url(../img/store/108.jpg) no-repeat center;
 	background-size:100%;
 }
@@ -592,7 +711,6 @@
 	top:238px;
 	text-align: center;
 	width: 294px;
-	
 }
 .content_phone ul li:nth-child(5) .marquee h3{
 	color: #000000;
@@ -1052,7 +1170,6 @@
 .content_accessories ul li:nth-child(8) .accessories a{
 	background: url(../img/store/11.png) no-repeat center;
 	background-size:100%;
-	
 }
 
 .content_accessories ul li:hover{
