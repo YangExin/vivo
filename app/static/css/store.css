@@ -24,6 +24,39 @@
 	display: block;
 }
 
+/*------------------------banner中的二级菜单------------------------*/
+.banner_nav .banner_nav_left ul{
+	position: absolute;
+	top: 166px;
+	left: 0px;
+	width: 202px;
+	z-index: 3;
+	background: #000;
+	opacity: .6;
+	padding-top: 42px;
+	padding-bottom: 42px;
+}
+.banner_nav .banner_nav_left ul li {
+	color: #FFFFFF;
+	height: 62px;
+	line-height: 62px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.banner_nav .banner_nav_left ul li:hover{
+	background: #FFFFFF;
+	opacity: 1;
+	color: black;
+	transition: .6s;
+}
+.banner_nav .banner_nav_left ul li span{
+	float: right;
+	display: block;
+}
+
+
+
+
 
 				/*热卖专区*/
 .content_selling{
