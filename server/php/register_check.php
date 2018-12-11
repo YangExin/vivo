@@ -1,5 +1,6 @@
 <?php
     header("Access-Control-Allow-Origin: *");
+    header("Content-type: text/html; charset=UTF-8");
     $username = $_GET["username"];
     // 连接数据库与
     // sql语句， 用来查询

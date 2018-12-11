@@ -1,27 +1,27 @@
 <?php
-    header("Access-Control-Allow-Origin: *");
-    $username = $_POST["username"];
-    $password = $_POST['password'];
-    $tel = $_POST['phone'];
+    header("Access-Control-Allow-Origin:*");
+    header('Access-Control-Allow-Headers:x-requested-with,content-type，requesttype');
+    header("Content-type: text/html;charset=UTF-8");
+    $username = $_GET["user"];
+    $password = $_GET['pass'];
+    $tel = $_GET['tel'];
     $coon = new mysqli('localhost', 'root', '', 'vivo_admin', 3306);
-    $sql = "INSERT INTO vivo_user (username,telnumber,password) VALUES ('$username','$tel','$password')";
+
+    $sql = "INSERT INTO `vivo_user` (username,telnumber,`password`) VALUES ('$username','$tel','$password')";
     $coon -> query("SET NAMES 'utf8'");//写库
+
+    $coon ->query("SET CHARACTOR SET 'utf8'");
+
     $result = $coon -> query($sql);
-    if($result) {
-        //  查到数据
-        echo "<script>
-        alert('注册成功！');
-        if(alert){
-            window.location = '../VIVO-index.html';
-        }
-        </script>"
+
+
+    if ($result) {
+        // $arr = array("code" => "1");
+        echo "1";
     } else {
-        // 没有查询到
-       echo "<script>
-       alert('注册失败！');
-       if(alert){
-           window.location = 'register.html';
-       }
-       </script>"
+        echo "0";
+        // $arr = array("code" => "0");
     }
+    // echo json_encode($arr);
+    
 ?>
