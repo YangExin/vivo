@@ -4,10 +4,12 @@ body,html{
 }
 #cart_wrap{
 	width: 100%;
+	height: auto;
 	background: #f7f7f5;	
-	/*background: #20A900;*/
-	padding-top: 5px;
+	
 }
+
+
 /*隐藏的空购物车*/
 .empty{
 	width: 100%;
@@ -33,6 +35,13 @@ body,html{
 
 
 /*添加物品的购物车*/
+.shop_cart{
+	padding-top: 5px;
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	display:block;
+}
 .shop_top{
 	width: 1200px;
 	height: 66px;
@@ -55,19 +64,57 @@ body,html{
 }
 .shop_data{
 	width: 1200px;	
-	margin: 0 auto;
+	margin: 0 auto 19px;
 }
 .shop_data table:nth-child(1){
-	width: 1200px;
+	padding-left:25px;
 	height: 64px;
 	background: #fff;
 }
 .shop_data table:nth-child(1) tr th{
 	color:#000;
-	font-size:14px;	
-	
+	font-size:14px;		
 }
-
+.shop_data table:nth-child(1) tr th:nth-child(1){
+	width: 175px;
+	height: 64px;
+	text-align: left;
+}
+.shop_data table:nth-child(1) tr th:nth-child(2){
+	width: 250px;
+	height: 64px;
+	text-align: center;
+}
+.shop_data table:nth-child(1) tr th:nth-child(3){
+	width: 150px;
+	height: 64px;
+	text-align: center;
+}
+.shop_data table:nth-child(1) tr th:nth-child(4){
+	width: 150px;
+	height: 64px;
+	text-align: center;
+}
+.shop_data table:nth-child(1) tr th:nth-child(5){
+	width: 150px;
+	height: 64px;
+	text-align: center;
+}
+.shop_data table:nth-child(1) tr th:nth-child(6){
+	width: 150px;
+	height: 64px;
+	text-align: center;
+}
+.shop_data table:nth-child(1) tr th:nth-child(7){
+	width: 150px;
+	height: 64px;
+	text-align: center;
+}
+.shop_data table:nth-child(1) tr th:nth-child(8){
+	width: 150px;
+	height: 64px;
+	text-align: center;
+}
 .shop_data table:nth-child(1) tr th:nth-child(1) i a{
 	display: inline-block;
 	width: 20px;
@@ -76,24 +123,168 @@ body,html{
 	margin-right: 14px;
 	vertical-align: middle;
 } 
-
 .shop_data table:nth-child(1) tr th:nth-child(1)>a:hover{
 	color:red;
 }
 .shop_data table:nth-child(2){
-	width: 1200px;
 	background: #fff;
 	margin-top: 2px;
-	
-}
-.shop_data table:nth-child(2) tr td:nth-child(1){
-	padding-left: 60px;
-	
+	padding-left: 25px;	
 }
 .shop_data table:nth-child(2) tr td:nth-child(1) a{
 	display: inline-block;
+	margin-right: 35px;
 	width: 20px;
 	height: 20px;
 	background: url(../img/shop-cart/4.png) no-repeat -10px -237px;
 	vertical-align: middle;
+}
+.shop_data table:nth-child(2) tr td:nth-child(2) .img{
+	float:left;
+	width: 100px;
+	height: 100px;
+	background: url(../img/shop-cart/9.png) no-repeat center;
+	background-size:100%;
+	border:1px solid #C0C0C0;
+	margin:25px 20px 25px 0;
+}
+.shop_data table:nth-child(2) tr td:nth-child(2) span{
+	float:left;
+	margin-top: 55px;
+}
+.shop_data table:nth-child(2) tr td:nth-child(2) span a{
+	font-size:14px;
+	color:#000;
+}
+.shop_data table:nth-child(2) tr td:nth-child(2){
+	width: 390px;
+	text-align: left;
+}
+.shop_data table:nth-child(2) tr td:nth-child(3){
+	width: 150px;
+
+	text-align: center;
+}
+.shop_data table:nth-child(2) tr td:nth-child(4){
+	width: 150px;
+	text-align: center;
+}
+
+.shop_data table:nth-child(2) tr td:nth-child(4) a{
+	display: block;
+	vertical-align: middle;
+	float: left;
+	width: 25px;
+	height: 25px;
+	border:1px solid #C0C0C0;	
+}
+.shop_data table:nth-child(2) tr td:nth-child(4) .a1{
+	background: url(../img/shop-cart/4.png) no-repeat -8px -173px;
+}
+.shop_data table:nth-child(2) tr td:nth-child(4) .a2{
+	background: url(../img/shop-cart/4.png) no-repeat -9px -148px;
+}
+
+.shop_data table:nth-child(2) tr td:nth-child(4) input{
+	width: 23px;
+	height: 23px;
+	float: left;
+	text-align: center;
+}
+.shop_data table:nth-child(2) tr td:nth-child(5){
+	width: 150px;
+
+	text-align: center;
+}
+.shop_data table:nth-child(2) tr td:nth-child(6){
+	width: 150px;
+
+	text-align: center;
+}
+.shop_data table:nth-child(2) tr td:nth-child(7){
+	width: 150px;
+	color:red;
+	text-align: center;
+}
+.shop_data table:nth-child(2) tr td:nth-child(8){
+	width: 150px;
+
+	text-align: center;
+}
+.shop_data table:nth-child(2) tr td:nth-child(8) a{
+	display: block;
+	color:#000;
+	font-size:14px;
+}
+.shop_data table:nth-child(2) tr td a:hover{
+	color:red;
+}
+.shop_data table:nth-child(2) tr td:nth-child(2) span a:hover{
+	color: red;
+}
+.shop_bottom{
+	width: 1200px;
+	height: 98px;
+	margin: 0 auto;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 0 24px;
+	
+}
+.shop_bottom ul li:nth-child(1){
+	float: left;
+	height: 98px;
+	line-height: 98px;
+}
+.shop_bottom ul li:nth-child(1) a{
+	margin-right: 20px;
+	color: #000;
+	font-size: 14px;
+}
+.shop_bottom ul li:nth-child(1) a:hover{
+	color:red;
+}
+.shop_bottom ul li:nth-child(1) a:nth-child(1){
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: url(../img/shop-cart/4.png) no-repeat -10px -237px;
+}
+.shop_bottom ul li:nth-child(2){
+	float: right;
+}
+.shop_bottom ul li:nth-child(2) a{
+	display: inline-block;
+	float: right;
+	width: 156px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	background: red;
+	border-radius: 24px 24px 24px 24px;
+	color: #fff;
+	font-size: 16px;
+	margin:28px 0 0 20px;
+}
+.shop_bottom ul li:nth-child(2) span{
+	float: right;
+	margin-top:22px;
+}
+.shop_bottom ul li:nth-child(2) span h3{
+	color: #000000;
+	font-size:14px;
+}
+.shop_bottom ul li:nth-child(2) span h3 i{
+	color: red;
+	font-size:14px;
+}
+.shop_bottom ul li:nth-child(2) span h3 strong{
+	color: red;
+	font-size: 28px;
+}
+.shop_bottom ul li:nth-child(2) span p{
+	color:#4C4C4C;
+	font-size:12px;
+	padding-left: 86px;
 }

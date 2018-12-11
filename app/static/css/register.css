@@ -1,6 +1,7 @@
 #wrapper{
     background: url("../img/login/register_bg02.jpg") center no-repeat;
     background-size: cover;
+    height: 880px;
 }
 .wrapper{
     overflow: hidden;

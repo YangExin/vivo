@@ -77,7 +77,6 @@ $(function () {
     $('.btn_list li').click(function () {
         which = $(this).index();
         showImage(which);
-        clearInterval(start);
     });
     function showImage() {
         $('.banner .btn_list li').removeClass('choose');
@@ -118,7 +117,7 @@ $(function () {
     $('#banner').mouseleave(autoPlay());
     var start = setInterval(function () {
         autoPlay();
-    },3000)
+    },3500)
 
 }())
 
