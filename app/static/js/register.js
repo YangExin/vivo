@@ -77,10 +77,25 @@ var register = (function(){
                 for(let i = 0; i < $pAll.length; i++) {
                     if($pAll[i].className.indexOf('text-success') == -1) {
                         $pAll[i].previousElementSibling.focus();
+                        sendAjax('http://localhost:1023/vivo/server/php/register_send.php',{
+                                data: {
+                                    username: this.value
+                                },
+                                success(res) {
+                                    res = JSON.parse(res);
+                                    if(res.code == 0) {
+                                        // 用户名不存在
+                                        $p.innerHTML = '用户名称可以使用';
+                                    } else {
+                                        // 用户名已经存在
+                                        $p.innerHTML = '用户名称已存在';
+                                    }
+                                    // console.log(res);
+                                }
+                            });
                         return;
                     }
                 }
-                alert('成功');
             }
         }
     }
