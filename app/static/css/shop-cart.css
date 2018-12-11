@@ -143,6 +143,8 @@ body,html{
 	float:left;
 	width: 100px;
 	height: 100px;
+	background: url(../img/shop-cart/9.png) no-repeat center;
+	background-size:100%;
 	border:1px solid #C0C0C0;
 	margin:25px 20px 25px 0;
 }
@@ -217,7 +219,9 @@ body,html{
 .shop_data table:nth-child(2) tr td a:hover{
 	color:red;
 }
-
+.shop_data table:nth-child(2) tr td:nth-child(2) span a:hover{
+	color: red;
+}
 .shop_bottom{
 	width: 1200px;
 	height: 98px;
