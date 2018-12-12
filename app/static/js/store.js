@@ -37,10 +37,13 @@ $( storePhone = function () {
       inisertData(data){
             data = data.data;
             var arry = [];
-            for ( var attr in data[0]){
-                console.log(data[0][attr]);
-                arry.push(data[0][attr]);
+            for (var i =0 ; i<data.length ; i++){
+                for ( var attr in data[i]){
+                    console.log(data[i][attr]);
+                    arry.push(data[i][attr]);
+                }
             }
+
             // $('.content_selling .phone a').append(arry[0]);
             console.log(arry[0]);
           $('.content_selling .phone a').css({'backgroundImage':'url('+arry[0]+')'})

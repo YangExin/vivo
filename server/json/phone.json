@@ -1,14 +1,34 @@
 {
   "data":[
   {
-    "img":"http://localhost:6623/vivo/vivo/app/static/img/store/61.png",
+    "img":"http://localhost:6623/vivo/vivo/app/static/img/store/103.png",
     "name":"X23 幻彩版 6GB+128GB-北极晨曦",
     "price":"￥ 2686.00"
   },
   {
-    "img":"../../app/static/img/store/67.png",
-    "name":"X23 幻彩版 6GB+128GB-北极晨曦",
+    "img":"http://localhost:6623/vivo/vivo/app/static/img/store/104.png",
+    "name":"X23 幻彩版 6GB+128GB-星夜海洋",
     "price":"￥ 1988.00"
-  }
+  },
+    {
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/103.png",
+      "name":"NEX双屏版 10GB+128GB-冰原蓝",
+      "price":"￥ 1988.00"
+    },
+    {
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/103.png",
+      "name":"X23 幻彩版 6GB+128GB-北极晨曦",
+      "price":"￥ 1988.00"
+    },
+    {
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/103.png",
+      "name":"X23 幻彩版 6GB+128GB-北极晨曦",
+      "price":"￥ 1988.00"
+    },
+    {
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/103.png",
+      "name":"X23 幻彩版 6GB+128GB-北极晨曦",
+      "price":"￥ 1988.00"
+    }
   ]
 }
