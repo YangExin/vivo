@@ -62,7 +62,7 @@ var changeImages = (function(){
                     $('.times_bug').css('display','none');
                 }
                 console.log($('.pay_money_bg'))
-            })
+            })  
             //增加或减少购买数量，最多5部
             var num = 1;   
             $('.less').click(function(){
