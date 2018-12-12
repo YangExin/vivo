@@ -612,9 +612,12 @@
 	background-size: cover;
 }
 .story_camera a .camera_wrap{
-	position:absolute;
-	top:208px;
-	left: 840px;
+    float: right;
+    margin-top: 172px;
+    margin-right: 235px;
+    /*position:absolute;*/
+	/*top:208px;*/
+	/*left: 840px;*/
 }
 .story_camera a h3{
 	font-size:34px;
@@ -688,9 +691,12 @@
 	background-size:cover;
 }
 .story_fashion a .fashion_wrap{
-	position: absolute;
-	top:205px;
-	left:844px;
+	/*position: absolute;*/
+	/*top:205px;*/
+	/*left:844px;*/
+    float: right;
+    margin-top: 172px;
+    margin-right: 435px;
 }
 .story_fashion a h3{
 	font-size:34px;
