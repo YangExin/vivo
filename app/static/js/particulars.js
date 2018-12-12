@@ -47,9 +47,9 @@ var changeImages = (function(){
             $(window).scroll(function(){
                 // console.log($(this).scrollTop());
                 if($(this).scrollTop()  >= 1140){
-                    $('.show_box').css({'position':'absolute','top':'1210px','left':0})
+                    $('.show_box').css({'position':'absolute','top':'1210px','left':240})
                 } else if ($(this).scrollTop()  <= 1140){
-                    $('.show_box').css({'position':'fixed','top':80,'left':'18%'})
+                    $('.show_box').css({'position':'fixed','top':80,'left':240})
                 }            
             })
             //改变分期付款样式

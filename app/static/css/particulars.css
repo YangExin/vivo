@@ -6,7 +6,6 @@
 .main{
     height: 1930px;
     width: 100%;
-    position: relative;
 }
 .content{
     width: 1200px;
@@ -43,7 +42,7 @@
     flex-direction: column;
     position: absolute;
     top: 80px;
-    left: 0;
+    left: 240px;
 }
 .main .show_box .bigImages{
     width: 630px;
