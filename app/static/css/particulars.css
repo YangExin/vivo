@@ -42,7 +42,7 @@
     flex-direction: column;
     position: absolute;
     top: 80px;
-    left: 240px;
+    left: 0px;
 }
 .main .show_box .bigImages{
     width: 630px;
@@ -52,6 +52,24 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+}
+.main .show_box .bigImages .magnifier{
+    width: 515px;    
+    height: 515px;
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 630px;
+    z-index: 3;
+    overflow: hidden;
+    display: none;
+}
+.main .show_box .bigImages .magnifier img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1030px;
+    height: 1030px;
 }
 .main .show_box .bigImages .hotsail{
     width: 100px;
@@ -65,6 +83,17 @@
     position: relative;
     height: 515px;
     width: 515px;
+}
+.main .show_box .bigImages ul .glass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 257.5px;
+    height: 257.5px;
+    background: #35a4e4;
+    opacity: .4;
+    z-index: 3;
+    display: none;
 }
 .main .show_box .bigImages ul li{
     position: absolute;
@@ -219,7 +248,7 @@
     /* display: block; */
     opacity: 1;
     transition: .6s;
-    z-index: 9;
+    z-index: 2;
 }
 .main .contain .introduction .support div{
     display: block;
@@ -263,7 +292,7 @@
     /* display: block; */
     opacity: 1;
     transition: .6s;
-    z-index: 9;
+    z-index: 2;
 }
 .main .contain .introduction .support .oldNew{
     width: 438px;
