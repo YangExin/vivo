@@ -696,7 +696,7 @@
 	/*left:844px;*/
     float: right;
     margin-top: 172px;
-    margin-right: 435px;
+    margin-right: 400px;
 }
 .story_fashion a h3{
 	font-size:34px;
@@ -715,3 +715,25 @@
 .story_fashion a span:hover{
 	color:#48e1ea;
 }
+ 
+
+
+/*------------------------返回顶部-------------------------*/
+.back{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 80px;
+}
+.back a{
+	display: block;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	background:url(../img/index/66.png) no-repeat center;
+	background-size: cover;
+}
+
