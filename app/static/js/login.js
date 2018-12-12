@@ -17,13 +17,14 @@ $('.login_btn').click(function(){
     var val = $('#userid').val(),
     pass = $('#password').val()
     sendAjax('http://localhost:1023/vivo/server/php/login_send.php', {
-
         data: {
             user: val,
             password: pass
         },
         success(res){
             if (res == 1) {
+                localStorage.user = val;
+                localStorage.password = pass;
                 location.href = 'VIVO-index.html';
             } else if(res == 0){
                 alert('密码或用户名不正确，请重新输入');
