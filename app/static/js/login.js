@@ -26,7 +26,7 @@ $('.login_btn').click(function(){
             if (res == 1) {
                 location.href = 'VIVO-index.html';
             } else if(res == 0){
-                alert('密码与用户名不匹配，请重新输入');
+                alert('密码或用户名不正确，请重新输入');
             }
         }
     })
