@@ -69,8 +69,12 @@ var changeImages = (function(){
                     $('.times_bug').css('display','none');
                 }
                 console.log($('.pay_money_bg'))
+<<<<<<< HEAD
             })
 
+=======
+            })  
+>>>>>>> 48fb2ed8e2802e8b61638c3d7213dbeea80e6d56
             //增加或减少购买数量，最多5部
             var num = 1;   
             $('.less').click(function(){

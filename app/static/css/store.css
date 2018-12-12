@@ -205,7 +205,7 @@
 }
 .content_selling ul li .phone{
 	width: 148px;
-	height: 184px;
+	height: 148px;
 	position: absolute;
 	left:50% ;
 	margin-left: -74px;
@@ -217,14 +217,14 @@
 	opacity: 1;
 	z-index: 3;
 	width: 148px;
-	height: 184px;
+	height: 144px;
 	background-size: cover;
 }
 .content_selling ul li .phone_hidden{
 	opacity: 1;
 	z-index: 3;
 	width: 148px;
-	height: 184px;
+	height: 148px;
 	position: absolute;
 	left:50% ;
 	margin-left: -74px;
@@ -233,7 +233,7 @@
 .content_selling ul li .phone_hidden .blue_phone{
 	display: block;
 	width: 148px;
-	height: 184px;
+	height: 148px;
 	background-size: cover;
 	z-index: 1;
 	opacity: 0;
@@ -301,28 +301,28 @@
 
 .content_selling ul li:nth-child(1) .phone a{
 	background: url(../img/store/103.png) no-repeat center;
-	background-size:100%;
+	background-size:contain;
 }
 .content_selling ul li:nth-child(1) .phone_hidden .blue_phone{
 	background: url(../img/store/108.jpg) no-repeat center;
-	background-size:100%;
+	background-size:contain;
 }
 
 .content_selling ul li:nth-child(2) .phone a{
 	background: url(../img/store/103.png) no-repeat center;
-	background-size:100%;
+	background-size:contain;
 }
 .content_selling ul li:nth-child(2) .phone_hidden .a1{
 	background: url(../img/store/108.jpg) no-repeat center;
-	background-size:100%;
+	background-size:contain;
 }
 .content_selling ul li:nth-child(3) .phone a{
 	background: url(../img/store/103.png) no-repeat center;
-	background-size:100%;
+	background-size:contain;
 }
 .content_selling ul li:nth-child(3) .phone_hidden .a1{
 	background: url(../img/store/108.jpg) no-repeat center;
-	background-size:100%;
+	background-size:contain;
 }
 
 
@@ -1072,9 +1072,6 @@
 	font-size: 16px;
 	color:red;
 }
-
-
-
 .content_accessories ul li:nth-child(1){
 	margin-bottom: 10px;
 }
@@ -1082,9 +1079,6 @@
 	background: url(../img/store/17.png) no-repeat center;
 	background-size:100%;
 }
-
-
-
 .content_accessories ul li:nth-child(2){
 	margin-bottom: 10px;
 }
