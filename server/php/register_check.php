@@ -1,9 +1,11 @@
 <?php
+    header("Access-Control-Allow-Origin: *");
+    header("Content-type: text/html; charset=UTF-8");
     $username = $_GET["username"];
     // 连接数据库与
     // sql语句， 用来查询
-    $coon = new mysqli('localhost', 'root', '', 'vivo_user', 3306);
-    $sql = "select * from user_info where username='$username'";
+    $coon = new mysqli('localhost', 'root', '', 'vivo_admin', 3306);
+    $sql = "select * from vivo_user where username='$username'";
     // 用户名称如果可以是中文,要设置字符集
     $coon -> query("SET NAMES 'utf8'");//写库
     $result = $coon -> query($sql);
@@ -15,7 +17,6 @@
     if($row) {
         //  查到数据
         $arr = array("code" => "10000", "data" => "");
-
     } else {
         // 没有查询到
         $arr = array("code" => "0", "data" => "");

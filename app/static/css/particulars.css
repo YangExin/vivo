@@ -221,7 +221,7 @@
     transition: .6s;
     z-index: 9;
 }
-.main .contain .introduction .support i{
+.main .contain .introduction .support div{
     display: block;
     height: 20px;
     line-height: 20px;
@@ -231,6 +231,11 @@
     font-size: 16px;
     background: url('../img/particulars/dui_03.jpg') no-repeat 0 center;
     position: relative;
+}
+.main .contain .introduction .support div i{
+    display: block;
+    background: url('../img/particulars/dui_03.jpg') no-repeat 0 center;
+    padding-left: 20px;
 }
 .main .contain .introduction .support .insta{
     width: 438px;
