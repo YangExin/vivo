@@ -54,15 +54,9 @@ var changeImages = (function(){
                 // console.log($(this).scrollTop());
                 var a = $('.show_box').offset().left;
                 if($(this).scrollTop()  >= 1140){
-<<<<<<< HEAD
-                    $('.show_box').css({'position':'absolute','top':1210})
-                } else if ($(this).scrollTop()  <= 1140){
-                    $('.show_box').css({'position':'fixed','top':80})
-=======
                     $('.show_box').css({'position':'absolute','top':'1210px','left':0})
                 } else if ($(this).scrollTop()  <= 1140){
                     $('.show_box').css({'position':'fixed','top':80,'left':75})
->>>>>>> bae8016043a9f13bc89fc6d180dc7a8fd1a42063
                 }            
             })
 
@@ -76,16 +70,8 @@ var changeImages = (function(){
                     $('.times_bug').css('display','none');
                 }
                 console.log($('.pay_money_bg'))
-<<<<<<< HEAD
-            })
-=======
-<<<<<<< HEAD
             })
 
-=======
-            })  
->>>>>>> 48fb2ed8e2802e8b61638c3d7213dbeea80e6d56
->>>>>>> bae8016043a9f13bc89fc6d180dc7a8fd1a42063
             //增加或减少购买数量，最多5部
             var num = 1;
 
@@ -179,7 +165,7 @@ $( storePhone = function () {
         },
         getDate(){
             var _this = this;
-            $.ajax("http://localhost:6623/vivo/vivo/server/json/phone.json",{
+            $.ajax("http://localhost:1023/vivo/server/json/phone.json",{
                 type:'post',
                 contentType:'json',
                 success(res){
