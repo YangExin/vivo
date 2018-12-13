@@ -44,12 +44,13 @@ var changeImages = (function(){
                 $(this).find('span').toggleClass('span_bg');
             })
             //手机展示区域固定定位与绝对定位的切换
-            $(window).scroll(function(){
+            $(window).scroll(function(e){
                 // console.log($(this).scrollTop());
+                var a = $('.show_box').offset().left;
                 if($(this).scrollTop()  >= 1140){
-                    $('.show_box').css({'position':'absolute','top':'1210px','left':240})
+                    $('.show_box').css({'position':'absolute','top':1210})
                 } else if ($(this).scrollTop()  <= 1140){
-                    $('.show_box').css({'position':'fixed','top':80,'left':240})
+                    $('.show_box').css({'position':'fixed','top':80})
                 }            
             })
             //改变分期付款样式
@@ -62,24 +63,62 @@ var changeImages = (function(){
                     $('.times_bug').css('display','none');
                 }
                 console.log($('.pay_money_bg'))
-            })  
+            })
             //增加或减少购买数量，最多5部
-            var num = 1;   
+            var num = 1;
+
             $('.less').click(function(){
+                var money = $('.select .select_type span').html()-0;
+                money = 2798 - 0;
                 num--;
-                if(num <= 1){
-                    num = 1;
-                }
-                $(this).parent().find('p').html(num)
+                if(num <= 1){num = 1;}
+                $(this).parent().find('p').html(num);
+                $('.select .select_type span').html(money*num)
+
             })
             $('.plus').click(function(){
+                var money = $('.select .select_type span').html()-0;
+                money = 2798 - 0;
                 num++; 
-                if(num >= 5){
-                    num = 5;
-                }
+                if(num >= 5){num = 5;}
                 $(this).parent().find('p').html(num)
+                $('.select .select_type span').html(money*num)
             })
         }
     }
 }())
 changeImages.init();
+
+
+/*------------------------数据渲染-----------------------*/
+$( storePhone = function () {
+    return{
+        init(){
+            this.getDate();
+        },
+        event(){
+
+        },
+        getDate(){
+            var _this = this;
+            $.ajax("http://localhost:6623/vivo/vivo/server/json/phone.json",{
+                type:'post',
+                contentType:'json',
+                success(res){
+                    alert('数据获取成功')
+                    _this.inisertData(res);
+                },
+                error(){
+                    alert('数据获取失败')
+                }
+            })
+        },
+        inisertData(data){
+            data = data.phone;
+            $('.smallImages .json_img a').css({'backgroundImage':'url('+data[0].img+')'})
+            $('.contain .title .title_imp').html(data[0].name);
+            $('.select_type span').html(data[0].price);
+        }
+    }
+}())
+storePhone.init();
