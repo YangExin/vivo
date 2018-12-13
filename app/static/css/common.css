@@ -146,18 +146,18 @@ body,html{
     width: 205px;
     height: 196px;
     position: absolute;
-    top: -196px;
-    opacity: 0;
+    top: 48px;
     background: rgba(26,26,26,.9);
     margin-left: -70px;
+    display: none;
 }
-.first_li:hover .second_nav{
-    top: 48px;
-    opacity: 1;
-    transition: .5s ease;
-    z-index: 10;
-    background: rgba(26,26,26,.9);
-}
+/*.first_li:hover .second_nav{*/
+    /*top: 48px;*/
+    /*opacity: 1;*/
+    /*transition: .5s ease;*/
+    /*z-index: 10;*/
+    /*background: rgba(26,26,26,.9);*/
+/*}*/
 .header .nav-left .first_li .second_nav li{
      width: 120px;
      height: 20%;
@@ -418,6 +418,7 @@ a.footer-logo {
     float: left;
     transform-style: preserve-3d;
     perspective: 1000px;
+    display: none;
 }
 .fir_cirle{
     width: 168px;

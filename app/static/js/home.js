@@ -120,7 +120,6 @@ $(function () {
     },3500)
 
 }())
-
 $('.product_cont').on('mouseenter', 'li',function () {
     $(this).find('p').stop().slideDown();
     $(this).find('.small_img').stop().animate({'left':-418,'opacity':0})
@@ -128,4 +127,12 @@ $('.product_cont').on('mouseenter', 'li',function () {
 $('.product_cont').on('mouseleave', 'li',function () {
     $(this).find('p').stop().slideUp();
     $(this).find('.small_img').stop().animate({'left':24,'opacity':1})
+})
+$('.nav-left').on('mouseenter','li',function () {
+    $(this).find('ul').stop().slideDown();
+    $(this).find('.moon').stop().slideDown();
+})
+$('.nav-left').on('mouseleave','li',function () {
+    $(this).find('ul').stop().slideUp();
+    $(this).find('.moon').stop().slideUp();
 })

@@ -46,11 +46,11 @@ $( storePhone = function () {
               type:'post',
               contentType:'json',
               success(res){
-                  alert('数据获取成功(热卖专区，精品配件部分)')
+                  // alert('数据获取成功(热卖专区，精品配件部分)')
                   _this.inisertData(res);
               },
               error(){
-                  alert('数据获取失败')
+                  // alert('数据获取失败')
               }
           })
       },
