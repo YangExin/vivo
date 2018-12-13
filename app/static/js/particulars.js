@@ -54,17 +54,10 @@ var changeImages = (function(){
                 // console.log($(this).scrollTop());
                 var a = $('.show_box').offset().left;
                 if($(this).scrollTop()  >= 1140){
-<<<<<<< HEAD
-                    $('.show_box').css({'position':'absolute','top':'1210px','left':0})
-                } else if ($(this).scrollTop()  <= 1140){
-                    $('.show_box').css({'position':'fixed','top':80,'left':75})
-=======
-
                     $('.show_box').css({'position':'absolute','top':'1210px','left':0})
                 } else if ($(this).scrollTop()  <= 1140){
                     $('.show_box').css({'position':'fixed','top':80,'left':75})
 
->>>>>>> bbde9b3488f50b90423973a03acfbbc2deff10f5
                 }            
             })
 
@@ -78,13 +71,8 @@ var changeImages = (function(){
                     $('.times_bug').css('display','none');
                 }
                 console.log($('.pay_money_bg'))
-<<<<<<< HEAD
             })
 
-=======
-
-            })
->>>>>>> bbde9b3488f50b90423973a03acfbbc2deff10f5
             //增加或减少购买数量，最多5部
             var num = 1;
 

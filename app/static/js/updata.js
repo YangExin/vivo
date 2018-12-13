@@ -22,10 +22,12 @@ var shopCar = (function () {
             var pri = data.up;
             var count = data.num;
             var tal = data.tp;
+            var title = data.title;
             console.log(data);
-            $('.img').css('background',"url");
-            // $('.price').val('')
+            $('.img').css({'background':"url("+url+")",'background-size':'100%'});
+            $('.price').html(pri)
             $('.num').val(count);
+            $('.name').html(title);
             $('.total').html('￥'+ tal);
             $('.com').html(count);
             $('.settlement').html('￥' + tal);

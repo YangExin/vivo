@@ -3,6 +3,7 @@ var addCar = (function() {
     var $num = document.querySelector('.num');
     var $total = document.querySelector('.total');
     var $unit = document.querySelector('.price_num');
+    var $title = document.querySelector('.title_imp');
     // console.log($total);
     return {
         init() {
@@ -16,6 +17,9 @@ var addCar = (function() {
                 var target = e.target || e.srcElement;
                 if(target.nodeName === 'BUTTON') {
                     var res = {}
+                    //获取商品名称
+                    var pro_title = $title.innerHTML;
+                    res.title = pro_title;
                     //获取单价
                     var unit_pri = $unit.innerHTML;
                     res.up = unit_pri;
