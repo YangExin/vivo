@@ -1,0 +1,1 @@
+"use strict";$(".nav-left").mouseenter(function(){$(".curtain").stop(!0,!0).animate({top:0,opacity:.9})}),$(".nav-left").mouseleave(function(){$(".curtain").stop(!0,!0).animate({top:-195,opacity:0})});
