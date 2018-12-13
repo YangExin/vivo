@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5690ff-e79c-4422-af87-c48afa2a3ce0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/static/js/addCar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/json/x23shop_car.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/particulars.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/particulars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/particulars.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/particulars.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/particulars.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/particulars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/json/phone.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/json/phone.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +17,8 @@
       <file leaf-file-name="phone.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/json/phone.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="78">
+              <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -30,23 +26,30 @@
       <file leaf-file-name="particulars.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/particulars.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="696" column="36" selection-start-line="696" selection-start-column="36" selection-end-line="696" selection-end-column="36" />
+            <state relative-caret-position="9256">
+              <caret line="706" column="36" selection-start-line="706" selection-start-column="36" selection-end-line="706" selection-end-column="36" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addCar.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addCar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/js/addCar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="x23shop_car.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/json/x23shop_car.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -54,8 +57,8 @@
       <file leaf-file-name="particulars.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/js/particulars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+            <state relative-caret-position="2834">
+              <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,9 +70,9 @@
       <list>
         <option value="CSS File" />
         <option value="php" />
-        <option value="json" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="json" />
       </list>
     </option>
   </component>
@@ -127,6 +130,7 @@
         <option value="$PROJECT_DIR$/app/static/js/particulars.js" />
         <option value="$PROJECT_DIR$/app/particulars.html" />
         <option value="$PROJECT_DIR$/app/static/js/addCar.js" />
+        <option value="$PROJECT_DIR$/server/json/x23shop_car.json" />
       </list>
     </option>
   </component>
@@ -145,8 +149,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="574" />
+    <option name="width" value="1353" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -154,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,8 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -312,14 +316,15 @@
       <workItem from="1544489256632" duration="3891000" />
       <workItem from="1544493375552" duration="35969000" />
       <workItem from="1544575682388" duration="39325000" />
+      <workItem from="1544662906083" duration="507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233876000" />
+    <option name="totallyTimeSpent" value="234383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="879" y="0" width="1048" height="1057" extended-state="0" />
+    <frame x="574" y="0" width="1353" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -330,19 +335,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24089068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24361949" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.2494432" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,13 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/杨奕欣/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/杨奕欣/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -529,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="272" selection-end-column="9" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,9 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="277" column="20" lean-forward="true" selection-start-line="277" selection-start-column="20" selection-end-line="277" selection-end-column="20" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
           <caret line="413" column="33" lean-forward="true" selection-start-line="413" selection-start-column="33" selection-end-line="413" selection-end-column="33" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,29 +596,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/杨奕欣/detallPages6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1508">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/abc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/杨奕欣/detallPages6.js" />
+    <entry file="file://$PROJECT_DIR$/app/abc.html" />
     <entry file="file://$PROJECT_DIR$/app/shop-cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="368" column="14" selection-start-line="368" selection-start-column="14" selection-end-line="368" selection-end-column="14" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/json/phone.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/二阶段第一次月考/detallPages6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1898">
@@ -683,22 +649,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/particulars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+        <state relative-caret-position="2834">
+          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/particulars.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="696" column="36" selection-start-line="696" selection-start-column="36" selection-end-line="696" selection-end-column="36" />
+        <state relative-caret-position="9256">
+          <caret line="706" column="36" selection-start-line="706" selection-start-column="36" selection-end-line="706" selection-end-column="36" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -714,7 +675,21 @@
     <entry file="file://$PROJECT_DIR$/app/static/js/addCar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/json/phone.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/json/x23shop_car.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
