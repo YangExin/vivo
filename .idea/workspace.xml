@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c5690ff-e79c-4422-af87-c48afa2a3ce0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/server/json/x23shop_car.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/sass/a.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/particulars.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/particulars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/particulars.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/particulars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/VIVO-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/VIVO-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/particulars.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/particulars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,51 +25,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="phone.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/json/phone.json">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="936">
+              <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="particulars.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/particulars.html">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/js/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9256">
-              <caret line="706" column="36" selection-start-line="706" selection-start-column="36" selection-end-line="706" selection-end-column="36" />
+            <state relative-caret-position="104">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="57" column="1" selection-start-line="24" selection-end-line="57" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/sass/a.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VIVO-index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addCar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/js/addCar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="x23shop_car.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/json/x23shop_car.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="particulars.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/js/particulars.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2834">
-              <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -71,8 +81,8 @@
         <option value="CSS File" />
         <option value="php" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -88,6 +98,7 @@
       <find>str</find>
       <find>index</find>
       <find>smallImages</find>
+      <find>htmlmin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,11 +118,9 @@
         <option value="E:/HTML/First_stage review/day16/新建文件夹/公转自转/3d公转自转.html" />
         <option value="$PROJECT_DIR$/app/static/js/header.js" />
         <option value="E:/HTML/二阶段后四周/7week/32day/32day-down/public/index.html" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/dist/particulars.html" />
-        <option value="$PROJECT_DIR$/app/VIVO-index.html" />
         <option value="$PROJECT_DIR$/app/login.html" />
         <option value="$PROJECT_DIR$/app/register.html" />
         <option value="$PROJECT_DIR$/app/static/css/register.css" />
@@ -127,10 +136,14 @@
         <option value="$PROJECT_DIR$/app/static/css/particulars.css" />
         <option value="$PROJECT_DIR$/server/json/phone.json" />
         <option value="$USER_HOME$/Desktop/二阶段第一次月考/detallPages6.js" />
-        <option value="$PROJECT_DIR$/app/static/js/particulars.js" />
-        <option value="$PROJECT_DIR$/app/particulars.html" />
         <option value="$PROJECT_DIR$/app/static/js/addCar.js" />
         <option value="$PROJECT_DIR$/server/json/x23shop_car.json" />
+        <option value="$PROJECT_DIR$/app/static/js/particulars.js" />
+        <option value="$PROJECT_DIR$/app/particulars.html" />
+        <option value="$PROJECT_DIR$/app/VIVO-index.html" />
+        <option value="$PROJECT_DIR$/app/static/sass/a.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/static/js/api.js" />
       </list>
     </option>
   </component>
@@ -149,8 +162,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="574" />
-    <option name="width" value="1353" />
+    <option name="x" value="719" />
+    <option name="width" value="1208" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -183,24 +196,32 @@
               <item name="vivo" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vivo" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\vivo\vivo\dist\static\img\footer" />
       <recent name="C:\wamp64\www\vivo\vivo" />
     </key>
   </component>
@@ -316,15 +338,15 @@
       <workItem from="1544489256632" duration="3891000" />
       <workItem from="1544493375552" duration="35969000" />
       <workItem from="1544575682388" duration="39325000" />
-      <workItem from="1544662906083" duration="507000" />
+      <workItem from="1544662906083" duration="9499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234383000" />
+    <option name="totallyTimeSpent" value="243375000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="574" y="0" width="1353" height="1057" extended-state="0" />
+    <frame x="719" y="0" width="1208" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -340,7 +362,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24361949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2108014" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.2494432" />
@@ -372,68 +394,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/HTML/二阶段后四周/7week/31day/31day-down/jquery之dom操作1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-728" />
-      </provider>
-    </entry>
-    <entry file="file://E:/HTML/二阶段后四周/7week/31day/31day-down/animate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156" />
-      </provider>
-    </entry>
-    <entry file="file://E:/HTML/Second_stage review/day17/down/17day-down/图片切换/图片切换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Project/lunbo/lunbo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Project/lunbo/lbcss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Project/lunbo/lbjq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/php/register_check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/HTML/二阶段后四周/6week/day29/29day-up/闭包.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/HTML/First_stage review/day08/idea/src/scn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1794" />
-      </provider>
-    </entry>
-    <entry file="file://E:/HTML/First_stage review/day16/新建文件夹/公转自转/动画.html">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-2808" />
-      </provider>
-    </entry>
     <entry file="file://E:/HTML/First_stage review/day16/新建文件夹/公转自转/3d公转自转.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1289">
@@ -475,13 +435,6 @@
         <state relative-caret-position="-156" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/particulars.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -503,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/HTML/二阶段后四周/7week/32day/32day-up/手风琴css版/css/banner.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -517,17 +463,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="272" selection-end-column="9" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -542,6 +484,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="277" column="20" lean-forward="true" selection-start-line="277" selection-start-column="20" selection-end-line="277" selection-end-column="20" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,24 +506,10 @@
     </entry>
     <entry file="file://D:/A二阶段/Second_stage review/A/周杰伦表单/table.js" />
     <entry file="file://D:/A二阶段/Second_stage review/A/周杰伦表单/表格题目.html" />
-    <entry file="file://$PROJECT_DIR$/app/static/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://H:/新建文件夹/7-26/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="172" column="119" selection-start-line="172" selection-start-column="119" selection-end-line="172" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="413" column="33" lean-forward="true" selection-start-line="413" selection-start-column="33" selection-end-line="413" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -602,6 +533,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="368" column="14" selection-start-line="368" selection-start-column="14" selection-end-line="368" selection-end-column="14" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -633,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/二阶段第一次月考/detallPages6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1898">
@@ -647,28 +576,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/particulars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2834">
-          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/particulars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9256">
-          <caret line="706" column="36" selection-start-line="706" selection-start-column="36" selection-end-line="706" selection-end-column="36" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/二阶段第一次月考/detallPages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="153" column="53" lean-forward="true" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/json/x23shop_car.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -686,10 +604,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/json/x23shop_car.json">
+    <entry file="file://$PROJECT_DIR$/dist/static/js/addCar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="292">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/particulars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="316" column="25" selection-start-line="316" selection-start-column="25" selection-end-line="316" selection-end-column="25" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/shop-cart.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/particulars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/VIVO-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="57" column="1" selection-start-line="24" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/sass/a.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/a.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/css/a.css/a.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/api.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
