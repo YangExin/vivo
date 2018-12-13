@@ -6,8 +6,11 @@
     $password = $_GET['pass'];
     $tel = $_GET['tel'];
     $coon = new mysqli('localhost', 'root', '', 'vivo_admin', 3306);
+//        $coon = new mysqli('localhost', 'root', '', 'vivo_user', 3306);
+
 
     $sql = "INSERT INTO `vivo_user` (username,telnumber,`password`) VALUES ('$username','$tel','$password')";
+//    $sql = "INSERT INTO `user_info` (username,telnumber,`password`) VALUES ('$username','$tel','$password')";
     $coon -> query("SET NAMES 'utf8'");//写库
 
     $coon ->query("SET CHARACTOR SET 'utf8'");
