@@ -1,1 +1,0 @@
-"use strict";var $back=document.querySelector(".back");window.onscroll=function(){500<(document.documentElement.scrollTop||document.body.scrollTop)&&($back.style.display="block")},$back.onclick=function(){var c=setInterval(function(){var o=document.documentElement.scrollTop||document.body.scrollTop;(o-=100)<=0&&(o=0,clearInterval(c)),document.documentElement.scrollTop=o},10)};
