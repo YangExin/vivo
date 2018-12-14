@@ -1,0 +1,80 @@
+{
+  "phone":[
+  {
+    "id":0,
+    "img":"http://localhost:6623/vivo/vivo/app/static/img/store/103.png",
+    "name":"X23 幻彩版 6GB+128GB-北极晨曦",
+    "price":"2798.00"
+  },
+  {
+    "id":1,
+    "img":"http://localhost:6623/vivo/vivo/app/static/img/store/85.jpg",
+    "name":"X23 幻彩版 6GB+128GB-星夜海洋",
+    "price":"￥ 1988.00"
+  },
+    {
+      "id":2,
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/108.jpg",
+      "name":"NEX双屏版 10GB+128GB-冰原蓝",
+      "price":"￥ 1988.00"
+    },
+    {
+      "id":3,
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/86.png",
+      "name":"NEX双屏版 10GB+128GB-星漾紫",
+      "price":"￥ 1988.00"
+    },
+    {
+      "id":4,
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/101.png",
+      "name":"Z3 全面屏 6GB+64GB-极光蓝",
+      "price":"￥ 1988.00"
+    },
+    {
+      "id":5,
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/93.png",
+      "name":"Z3 全面屏 6GB+64GB-星夜红",
+      "price":"￥ 1988.00"
+    }],
+    "accessories":[
+      {
+      "img":"http://localhost:6623/vivo/vivo/app/static/img/store/17.png",
+      "name":"原装闪充充电器-白色",
+      "price":"￥ 79.00"
+      },
+      {
+        "img":"http://localhost:6623/vivo/vivo/app/static/img/store/92.png",
+        "name":"原装闪充数据线-灰白色",
+        "price":"￥ 19.00"
+      },
+      {
+        "img":"http://localhost:6623/vivo/vivo/app/static/img/store/21.png",
+        "name":"XE100原装耳机-灰白色",
+        "price":"￥ 39.00"
+      },
+      {
+        "img":"http://localhost:6623/vivo/vivo/app/static/img/store/99.png",
+        "name":"X23原装保护膜-透明",
+        "price":"￥ 29.00"
+      },
+      {
+        "img":"http://localhost:6623/vivo/vivo/app/static/img/store/79.png",
+        "name":"MGE 金属编织数据线-金色",
+        "price":"￥ 29.00"
+      },
+      {
+        "img":"http://localhost:6623/vivo/vivo/app/static/img/store/73.png",
+        "name":"MGE 金属编织数据线-金色",
+        "price":"￥ 189.00"
+      },
+      {
+        "img":"http://localhost:6623/vivo/vivo/app/static/img/store/48.png",
+        "name":"乐心手环3-黑色",
+        "price":"￥ 199.00"
+      },
+      {
+        "img":"http://localhost:6623/vivo/vivo/app/static/img/store/11.png",
+        "name":"XE160原装耳机-白色",
+        "price":"￥ 69.00"
+      }]
+}

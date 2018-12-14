@@ -71,7 +71,7 @@ gulp.task('sass', function () {
 //打开服务器
 gulp.task('connect',function(){
     connect.server({
-        root: 'app',//服务器默认文件夹
+        root: './dist',//服务器默认文件夹
         port: '7843',//端口号
         livereload: true
     })

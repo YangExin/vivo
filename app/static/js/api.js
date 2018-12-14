@@ -1,7 +1,9 @@
-const devApi = 'http://localhost:6623/vivo/server/php/';
-const buildApi = '/server/php/';
-var api = buildApi;
+const devApi = 'http://10.36.141.173:7843/server/';
+var api = devApi;
 const apiObj = {
-    login: api + 'login.php',
-    register: api + 'a/register.php'
+    store:api+'json/phone.json',
+    login_check: api + 'php/login_check.php',
+    login_send: api + 'php/login_send.php',
+    register_check: api + 'php/register_check.php',
+    register_send: api + 'php/register_send.php'
 }

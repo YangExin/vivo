@@ -36,7 +36,7 @@ var register = (function () {
                         if (bool) {
                             // 验证成功
                             if(this.name == 'username'){
-                                    sendAjax('http://localhost:1023/vivo/server/php/register_check.php', {
+                                    sendAjax(apiObj.register_check, {
                                     data: {
                                         username: this.value
                                     },
@@ -88,7 +88,7 @@ var register = (function () {
                         return false;
                     }
                 }
-                sendAjax('http://localhost:1023/vivo/server/php/register_send.php', {
+                sendAjax(apiObj.register_send,{
                     // method:'POST',
                     data: {
                         user: _this.$el.username.value,
@@ -97,7 +97,7 @@ var register = (function () {
                     },
                     success(res){
                         if(res == 1){
-                            location.href = 'VIVO-index.html';
+                            window.location.href = 'VIVO-index.html';
                         }else if(res == 0){
                             alert('注册失败');
                         }

@@ -1,6 +1,6 @@
 $('#userid').blur(function(){
     var val = $(this).val()
-    sendAjax('http://localhost:1023/vivo/server/php/login_check.php', {
+    sendAjax(apiObj.login_check, {
         data: {
             user: val
         },
@@ -16,7 +16,7 @@ $('#userid').blur(function(){
 $('.login_btn').click(function(){
     var val = $('#userid').val(),
     pass = $('#password').val()
-    sendAjax('http://localhost:1023/vivo/server/php/login_send.php', {
+    sendAjax(apiObj.login_send, {
         data: {
             user: val,
             password: pass

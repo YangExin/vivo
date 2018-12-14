@@ -42,7 +42,7 @@ $( storePhone = function () {
       },
       getDate(){
           var _this = this;
-          $.ajax("http://localhost:6623/vivo/vivo/server/json/phone.json",{
+          $.ajax(apiObj.store,{
               type:'post',
               contentType:'json',
               success(res){
